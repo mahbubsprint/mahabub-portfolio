@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import "./globals.css";
+import MatrixRain from "@/components/MatrixRain";
 
 export const metadata: Metadata = {
   title: "Mahabub Mollah — Principal Software Engineer",
@@ -21,7 +22,10 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
           }}
         />
       </head>
-      <body>{children}</body>
+      <body>
+        <MatrixRain />
+        {children}
+      </body>
     </html>
   );
 }
