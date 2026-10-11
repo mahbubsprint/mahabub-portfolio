@@ -1,4 +1,3 @@
-import Image from "next/image";
 import MacWindow from "./MacWindow";
 import content from "@/data/content.json";
 
@@ -10,24 +9,17 @@ export default function AboutSection() {
       <div className="eyebrow">// about</div>
 
       <MacWindow title="mahabub@portfolio — about" cmd="Profile Loaded Successfully.">
-        <div className="about-grid">
-          <div className="about-pic-wrap">
-            <div className="card about-pic">
-              <Image src={site.profileImage} alt={site.name} width={400} height={400} style={{ width: "100%", height: "auto" }} />
-            </div>
-          </div>
-          <div className="about-text-col">
-            <p className="about-role-label">{site.role}</p>
-            <h2>Architecting <span className="accent-text">Scalable Systems</span>.</h2>
-            <p className="about-body">{about.bio}</p>
-            <div className="chip-row wrap">
-              {about.techStack.map((t) => (
-                <span key={t.name} className="tech-chip">
-                  <span className="chip-dot" style={{ background: t.color }} />
-                  {t.name}
-                </span>
-              ))}
-            </div>
+        <div className="about-text-col">
+          <p className="about-role-label">{site.role}</p>
+          <h2>Architecting <span className="accent-text">Scalable Systems</span>.</h2>
+          <p className="about-body">{about.bio}</p>
+          <div className="chip-row wrap">
+            {about.techStack.map((t) => (
+              <span key={t.name} className="tech-chip">
+                <span className="chip-dot" style={{ background: t.color }} />
+                {t.name}
+              </span>
+            ))}
           </div>
         </div>
 

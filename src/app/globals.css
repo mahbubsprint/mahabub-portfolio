@@ -270,12 +270,13 @@ h2 { font-size: 32px; font-weight: 700; margin-bottom: 30px; }
   border-bottom: 1px solid var(--border);
 }
 .mac-dot {
+  display: inline-block;
   width: 13px; height: 13px;
   border-radius: 50%; flex-shrink: 0;
 }
-.mac-red    { background: #ff5f57; }
-.mac-yellow { background: #ffbd2e; }
-.mac-green  { background: #28c840; }
+.mac-red    { background: #ff5f57 !important; }
+.mac-yellow { background: #ffbd2e !important; }
+.mac-green  { background: #28c840 !important; }
 .mac-title {
   margin-left: 8px;
   font-size: 12px;
