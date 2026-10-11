@@ -111,7 +111,7 @@ export default function Navbar() {
                 <Link href={l.href} className="link-item">{l.label}</Link>
               </li>
             ))}
-            <li><a href="/mahbub.docx" className="link-item nav-cta-mobile">Resume</a></li>
+            <li><a href={site.resumeFile} className="link-item nav-cta-mobile">Resume</a></li>
           </ul>
         </div>
       </div>

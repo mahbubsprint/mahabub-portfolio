@@ -7,9 +7,9 @@ const { site, social, home } = content;
 export default function HomeSection() {
   return (
     <section id="home" className="container bento-section">
-      {/* Hero row */}
-      <div className="bento-row hero-row">
-        <div className="card hero-card">
+      {/* Hero row — full width */}
+      <div className="bento-row">
+        <div className="card hero-card hero-full">
           <div className="hero-bg" />
           <div className="hero-content">
             <p className="hero-hello">Hello <span>👋</span>, I&apos;m</p>
@@ -26,51 +26,11 @@ export default function HomeSection() {
             </ul>
           </div>
         </div>
-
-        <div className="side-col">
-          <div className="card ask-card">
-            <div className="card-head">
-              <span className="card-icon icon-indigo">💬</span>
-              <h3>AskMahabub</h3>
-              <Link className="ext-link" href="/contact"><i className="fa fa-external-link" /></Link>
-            </div>
-            <p className="ask-desc">I&apos;m powered by Mahabub&apos;s data. Ask me anything about his projects, skills, or experience.</p>
-            <input className="ask-input" type="text" placeholder="What experience does Mahabub have?" disabled />
-            <div className="chip-row">
-              <button className="suggest-chip" type="button">Tell me about Mahabub.</button>
-              <button className="suggest-chip active" type="button">What experience does Mahabub have?</button>
-              <button className="suggest-chip" type="button">Give me important links.</button>
-            </div>
-          </div>
-          <div className="card explore-card">
-            <h4>Explore</h4>
-            <Link className="explore-row" href="/projects">View Projects <span>→</span></Link>
-            <Link className="explore-row" href="/experience">View Career Path <span>→</span></Link>
-          </div>
-        </div>
       </div>
 
-      {/* Three-col row */}
-      <div className="bento-row three-col">
-        <div className="card mini-card">
-          <div className="card-head">
-            <span className="card-icon icon-purple">🎤</span>
-            <Link className="ext-link" href="/contact"><i className="fa fa-external-link" /></Link>
-          </div>
-          <h4>Talks</h4>
-          <p className="mini-desc placeholder-text">Add your speaking engagements here</p>
-        </div>
-
-        <div className="card mini-card">
-          <div className="card-head">
-            <span className="card-icon icon-green">🌿</span>
-            <a className="ext-link" href={social.github} target="_blank" rel="noreferrer"><i className="fa fa-external-link" /></a>
-          </div>
-          <h4>Top Contributions</h4>
-          <p className="mini-desc placeholder-text">Add your open-source contributions here</p>
-        </div>
-
-        <div className="card stack-card">
+      {/* Core Stack row */}
+      <div className="bento-row">
+        <div className="card stack-card stack-full">
           <div className="stack-head">
             <h4>Core Stack</h4>
             <Link href="/skills">View All →</Link>
@@ -84,6 +44,23 @@ export default function HomeSection() {
               </span>
             ))}
           </div>
+        </div>
+      </div>
+
+      {/* Ask & Explore — hidden until implemented */}
+      <div hidden>
+        <div className="card ask-card">
+          <div className="card-head">
+            <span className="card-icon icon-indigo">💬</span>
+            <h3>AskMahabub</h3>
+          </div>
+          <p className="ask-desc">I&apos;m powered by Mahabub&apos;s data. Ask me anything about his projects, skills, or experience.</p>
+          <input className="ask-input" type="text" placeholder="What experience does Mahabub have?" disabled />
+        </div>
+        <div className="card explore-card">
+          <h4>Explore</h4>
+          <Link className="explore-row" href="/projects">View Projects <span>→</span></Link>
+          <Link className="explore-row" href="/experience">View Career Path <span>→</span></Link>
         </div>
       </div>
     </section>

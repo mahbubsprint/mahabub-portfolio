@@ -131,6 +131,8 @@ h2 { font-size: 32px; font-weight: 700; margin-bottom: 30px; }
 .bento-row { display: grid; gap: var(--gap); margin-bottom: var(--gap); }
 .hero-row { grid-template-columns: 2fr 1fr; align-items: stretch; }
 .side-col { display: flex; flex-direction: column; gap: var(--gap); }
+.hero-full { width: 100%; }
+.stack-full { width: 100%; }
 .three-col { grid-template-columns: 1fr 1fr 2fr; }
 .hero-card { position: relative; min-height: 480px; overflow: hidden; display: flex; align-items: center; padding: 56px; }
 .hero-bg {
