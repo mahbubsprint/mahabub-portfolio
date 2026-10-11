@@ -1,19 +1,77 @@
-const skills = [
-  { name: "PHP", color: "#e44d26" },
-  { name: "Laravel", color: "#ff2d20" },
-  { name: "CakePHP", color: "#e84393" },
-  { name: "Magento 2x", color: "#ff6700" },
-  { name: "JavaScript", color: "#f7df1e" },
-  { name: "jQuery", color: "#0769ad" },
-  { name: "React.js", color: "#61dafb" },
-  { name: "Node.js", color: "#68a063" },
-  { name: "Next.js", color: "#555" },
-  { name: "Express.js", color: "#68a063" },
-  { name: "MongoDB", color: "#4db33d" },
-  { name: "Ajax", color: "#0076c6" },
-  { name: "JSON", color: "#5a5a5a" },
-  { name: "HTML", color: "#e34c26" },
-  { name: "CSS", color: "#1572b6" },
+const categories = [
+  {
+    icon: "💻",
+    ghost: "</>",
+    label: "Languages",
+    skills: [
+      { name: "PHP", color: "#e44d26" },
+      { name: "JavaScript", color: "#f7df1e" },
+      { name: "HTML", color: "#e34c26" },
+      { name: "CSS", color: "#1572b6" },
+      { name: "TypeScript", color: "#3178c6" },
+      { name: "SQL", color: "#4479a1" },
+    ],
+  },
+  {
+    icon: "🖥️",
+    ghost: "◻",
+    label: "Frontend",
+    skills: [
+      { name: "React.js", color: "#61dafb" },
+      { name: "Next.js", color: "#555" },
+      { name: "jQuery", color: "#0769ad" },
+      { name: "Bootstrap", color: "#7952b3" },
+      { name: "Tailwind", color: "#38bdf8" },
+      { name: "Ajax", color: "#0076c6" },
+    ],
+  },
+  {
+    icon: "⚙️",
+    ghost: "⚙",
+    label: "Backend",
+    skills: [
+      { name: "Laravel", color: "#ff2d20" },
+      { name: "CakePHP", color: "#e84393" },
+      { name: "Node.js", color: "#68a063" },
+      { name: "Express.js", color: "#68a063" },
+      { name: "Magento 2x", color: "#f47621" },
+      { name: "REST API", color: "#3b82f6" },
+    ],
+  },
+  {
+    icon: "🗄️",
+    ghost: "◫",
+    label: "Databases",
+    skills: [
+      { name: "MongoDB", color: "#4db33d" },
+      { name: "MySQL", color: "#4479a1" },
+      { name: "PostgreSQL", color: "#336791" },
+      { name: "JSON", color: "#5a5a5a" },
+    ],
+  },
+  {
+    icon: "🔧",
+    ghost: "⚒",
+    label: "Tools & DevOps",
+    skills: [
+      { name: "Git", color: "#f05032" },
+      { name: "GitHub", color: "#555" },
+      { name: "VS Code", color: "#007acc" },
+      { name: "Postman", color: "#ff6c37" },
+      { name: "npm", color: "#cb3837" },
+    ],
+  },
+  {
+    icon: "☁️",
+    ghost: "☁",
+    label: "Cloud & Hosting",
+    skills: [
+      { name: "GitHub Pages", color: "#333" },
+      { name: "Vercel", color: "#555" },
+      { name: "AWS", color: "#ff9900" },
+      { name: "cPanel", color: "#ff6c37" },
+    ],
+  },
 ];
 
 export default function SkillsSection() {
@@ -21,15 +79,25 @@ export default function SkillsSection() {
     <section className="container section">
       <div className="eyebrow">// skills</div>
       <h2>Technical <span className="accent-text">Skills</span></h2>
-      <div className="card skills-card">
-        <div className="chip-row wrap">
-          {skills.map((s) => (
-            <span key={s.name} className="tech-chip">
-              <span className="chip-dot" style={{ background: s.color }} />
-              {s.name}
-            </span>
-          ))}
-        </div>
+      <div className="skills-grid">
+        {categories.map((cat) => (
+          <div key={cat.label} className="card skill-cat-card">
+            <div className="skill-cat-ghost">{cat.ghost}</div>
+            <div className="skill-cat-head">
+              <span className="skill-cat-icon">{cat.icon}</span>
+              <h4>{cat.label}</h4>
+            </div>
+            <hr />
+            <div className="chip-row wrap">
+              {cat.skills.map((s) => (
+                <span key={s.name} className="tech-chip">
+                  <span className="chip-dot" style={{ background: s.color }} />
+                  {s.name}
+                </span>
+              ))}
+            </div>
+          </div>
+        ))}
       </div>
     </section>
   );
