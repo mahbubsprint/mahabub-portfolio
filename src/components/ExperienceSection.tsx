@@ -9,12 +9,20 @@ export default function ExperienceSection() {
       <div className="eyebrow">// experience</div>
       <h2>Professional <span className="accent-text">Experience</span></h2>
       <MacWindow title="mahabub@portfolio — experience" cmd="Career Path Loaded.">
+
         <div className="timeline">
           {experience.jobs.map((j) => (
             <div key={j.title + j.org} className="card timeline-item">
-              <h5>{j.title}</h5>
-              <h6>{j.org} &mdash; {j.location} <span className="period-badge">{j.period}</span></h6>
-              <p>{j.desc}</p>
+              <div className="timeline-header">
+                <div>
+                  <h5>{j.title}</h5>
+                  <h6>{j.org} &mdash; {j.location}</h6>
+                </div>
+                <span className="period-badge">{j.period}</span>
+              </div>
+              <ul className="bullet-list">
+                {j.bullets.map((b, i) => <li key={i}>{b}</li>)}
+              </ul>
             </div>
           ))}
         </div>
@@ -25,7 +33,7 @@ export default function ExperienceSection() {
             <div key={e.title} className="card timeline-item">
               <h5>{e.title}</h5>
               <h6>{e.org}</h6>
-              <p>{e.desc}</p>
+              <p className="timeline-desc">{e.desc}</p>
             </div>
           ))}
         </div>
@@ -47,6 +55,7 @@ export default function ExperienceSection() {
             </div>
           ))}
         </div>
+
       </MacWindow>
     </section>
   );

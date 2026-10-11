@@ -16,10 +16,8 @@ export default function ProjectsSection() {
                 <h4>{p.title}</h4>
                 <span className="period-badge">{p.period}</span>
               </div>
-              <ul className="project-highlights">
-                {p.highlights.map((h, i) => (
-                  <li key={i}>{h}</li>
-                ))}
+              <ul className="bullet-list">
+                {p.bullets.map((b, i) => <li key={i}>{b}</li>)}
               </ul>
               <div className="project-footer">
                 <p className="project-stack">{p.stack}</p>

@@ -28,14 +28,14 @@
   "about": {
     "bio": "I am a Principal Software Engineer with 8+ years of experience in designing and implementing cloud-native applications. Skilled in various programming languages and frameworks, I have a proven track record of leading projects that enhance system performance and streamline workflows. My passion for mentoring engineers and delivering impactful solutions drives my commitment to excellence in software development.",
     "techStack": [
-      { "name": "JavaScript", "color": "#f7df1e" },
       { "name": "TypeScript", "color": "#3178c6" },
-      { "name": "PHP", "color": "#e44d26" },
       { "name": "Node.js", "color": "#68a063" },
+      { "name": "NestJS", "color": "#ea2845" },
       { "name": "React.js", "color": "#61dafb" },
       { "name": "Next.js", "color": "#555" },
-      { "name": "Laravel", "color": "#ff2d20" },
-      { "name": "NestJS", "color": "#ea2845" }
+      { "name": "AWS", "color": "#ff9900" },
+      { "name": "Docker", "color": "#2496ed" },
+      { "name": "Kubernetes", "color": "#326ce5" }
     ],
     "philosophy": [
       {
@@ -84,22 +84,38 @@
         "title": "Principal Software Engineer",
         "org": "BJIT (Bangladesh Japan Information Technology Limited)",
         "location": "Dhaka, Bangladesh",
-        "period": "May 2020 - Present",
-        "desc": "Led cross-functional development teams through sprint planning, task prioritization, code reviews, and on-time delivery. Designed and scaled microservices/APIs with API Gateway, Circuit Breaker, and Saga patterns. Implemented CI/CD pipelines, Docker/Kubernetes orchestration, and AWS cloud infrastructure. Applied IAM governance, secrets management, and encryption standards. Integrated AI-driven tools (GPT, Claude, Cursor AI) to boost productivity by 25%."
+        "period": "May 2020 – Present",
+        "bullets": [
+          "Led cross-functional development teams through sprint planning, task prioritization, code reviews, and on-time delivery of backend and frontend features.",
+          "Managed project execution end-to-end — requirement breakdown, risk handling, stakeholder coordination, CI/CD releases, and mentoring developers to improve team productivity and code quality.",
+          "Designed and scaled microservices and APIs with API Gateway, Circuit Breaker, and Saga patterns enabling independent scaling and cutting deployment time by 50%.",
+          "Implemented CI/CD pipelines with Docker and Kubernetes, reducing manual deployment effort by 70%.",
+          "Applied IAM governance, secrets management, and encryption standards, reducing security vulnerabilities by 35%.",
+          "Integrated AI-driven tools (GPT, Claude, Cursor AI) into engineering workflows, boosting developer productivity by 25%.",
+          "Mentored engineers and guided modernization efforts — monolith decomposition, API redesign, and cloud migration.",
+          "Tech: AWS (EC2, S3, RDS, AppSync), Azure, Kafka, RabbitMQ, MySQL, PostgreSQL, NestJS, Laravel, Docker, Kubernetes."
+        ]
       },
       {
         "title": "Software Engineer",
         "org": "AntoPolis",
         "location": "Dhaka, Bangladesh",
-        "period": "January 2018 - March 2020",
-        "desc": "Developed and maintained full-stack features using Node.js, React, Next.js, PHP/Laravel, applying design patterns (Factory, Observer, Strategy) to deliver clean, modular, and testable code. Optimized PostgreSQL/MySQL queries and schemas for performance and scalability. Ensured reliability through code reviews, unit/integration testing, and CI/CD on AWS."
+        "period": "January 2018 – March 2020",
+        "bullets": [
+          "Developed and maintained full-stack features using Node.js, React, Next.js, and PHP/Laravel, applying design patterns (Factory, Observer, Strategy) for clean, modular, testable code.",
+          "Optimized PostgreSQL/MySQL queries and schemas for performance and scalability.",
+          "Ensured reliability through code reviews, unit/integration testing, CI/CD, and production issue resolution on AWS (EC2, S3)."
+        ]
       },
       {
         "title": "Junior Software Engineer",
         "org": "Future Track IT",
         "location": "Dhaka, Bangladesh",
-        "period": "November 2016 - December 2017",
-        "desc": "Designed and built scalable web applications using PHP, Laravel, MySQL, JavaScript, jQuery, and CSS, delivering maintainable features through structured development, testing, and debugging. Collaborated with cross-functional teams to align technical execution with business goals."
+        "period": "November 2016 – December 2017",
+        "bullets": [
+          "Designed and built scalable web applications using PHP, Laravel, MySQL, JavaScript, jQuery, and CSS, delivering maintainable features through structured development, testing, and debugging.",
+          "Collaborated with cross-functional teams to align technical execution with business goals and ensure reliable, production-ready delivery."
+        ]
       }
     ],
     "education": [
@@ -132,62 +148,71 @@
   },
   "projects": [
     {
-      "img": "/images/portfolio/Biyeshamlao.png",
       "title": "E-parts – Catalog Management Platform",
-      "stack": "React, TypeScript, MUI, TanStack Query, SignalR, .NET 10, Azure Functions, Fabric SQL, Dataverse",
-      "period": "Apr 2026 - Present",
-      "highlights": [
-        "Led full-stack delivery of a scalable mill data platform covering sync, BOM management, and real-time editing",
-        "Built React/TypeScript UI with TanStack Query, lazy loading, and SignalR locks — ~60–70% fewer API calls, ~80–90% faster large-table render",
-        "Built Azure Functions (.NET 10) with Durable Functions for Fabric → Dataverse sync — ~40–60% faster large-mill sync"
+      "stack": "React · TypeScript · MUI · TanStack Query · SignalR · .NET 10 · Azure Functions · Fabric SQL · Dataverse · Azure Blob · Azure DevOps",
+      "period": "Apr 2026 – Present",
+      "bullets": [
+        "Led full-stack delivery of a scalable mill data platform covering sync, BOM management, and real-time collaborative editing.",
+        "Built React/TypeScript UI with TanStack Query and lazy BOM loading — reduced API calls by ~60–70% and improved large-table render speed by ~80–90%.",
+        "Implemented Azure SignalR locks for concurrent editing to prevent data conflicts across multiple users.",
+        "Built Azure Functions (.NET 10) with Durable Functions for Fabric → Dataverse sync — ~40–60% faster large-mill sync and ~50–90% less repeat sync data via delta sync.",
+        "Optimized Dataverse bulk writes with streaming pipelines; delivered BOM, Translations, Mill Search, Excel import, Activity Log, and Action Server integrations."
       ],
       "href": "#"
     },
     {
-      "img": "/images/portfolio/Willvote.png",
       "title": "Shin Sagantosu Fan Token – Store Discovery Platform",
-      "stack": "React, NestJS, TypeScript, Redux, React Query, Tailwind CSS, Google Maps API, AWS (S3, Amplify, DynamoDB, RDS)",
-      "period": "Apr 2025 - Feb 2026",
-      "highlights": [
-        "Led full-stack development delivering a scalable platform for 500+ stores",
-        "Implemented Google Maps integration with custom clustering and resolved race condition bugs",
-        "Reduced API calls by 60% via debounced search, auto-complete, and caching"
+      "stack": "React · NestJS · TypeScript · Redux · React Query · Tailwind CSS · Google Maps API · AWS S3 · Amplify · DynamoDB · RDS",
+      "period": "Apr 2025 – Feb 2026",
+      "bullets": [
+        "Led full-stack development from design to production deployment, delivering a scalable platform serving 500+ stores.",
+        "Architected React/TypeScript frontend with Redux and React Query, ensuring state persistence and shareable filter URLs.",
+        "Implemented Google Maps integration with custom marker clustering, dynamic bounds fitting, and resolved race condition bugs via ref-based state tracking.",
+        "Built admin panel with CRUD, bulk CSV import, multi-image upload (AWS S3), and concurrent request handling.",
+        "Designed API layer with debounced search, auto-complete, campaign filtering, and caching — reducing API calls by 60%.",
+        "Owned CI/CD deployment workflows on AWS Amplify with DynamoDB and RDS for high-availability data persistence."
       ],
       "href": "#"
     },
     {
-      "img": "/images/portfolio/PeopleScape.png",
       "title": "Mitsubishi Logistic – Warehouse Monitoring",
-      "stack": "Node.js, Express, React, Redux, Docker, API Gateway, Kafka, RabbitMQ, Microservices, NestJS",
-      "period": "Nov 2023 - Feb 2025",
-      "highlights": [
-        "Built microservices backend (NestJS) processing 10M+ records/day, cutting batch time from 3h → 40m",
-        "Integrated Kafka/RabbitMQ for async analytics, enabling near real-time productivity insights",
-        "Developed React/Redux dashboards for KPIs, reducing manual reporting by 70%"
+      "stack": "NestJS · Node.js · Express · React · Redux · Docker · API Gateway · Kafka · RabbitMQ · Microservices",
+      "period": "Nov 2023 – Feb 2025",
+      "bullets": [
+        "Built microservices backend (NestJS) processing 10M+ records/day, cutting batch processing time from 3 hours → 40 minutes.",
+        "Integrated Kafka and RabbitMQ for async analytics pipelines, enabling near real-time productivity insights across warehouses.",
+        "Applied API Gateway for unified access and authentication, reducing integration overhead by 30%.",
+        "Optimized performance service with caching and pipelines, lowering latency by 45% under peak loads.",
+        "Developed React/Redux dashboards for KPIs (throughput, downtime, utilization), reducing manual reporting by 70%.",
+        "Containerized services with Docker, enabling independent scaling and fault-tolerant deployments."
       ],
       "href": "#"
     },
     {
-      "img": "/images/portfolio/Bms.png",
       "title": "A-B Will Vote – Online Voting & Social Platform",
-      "stack": "Node.js, Express, React, React Hooks, Redux, AWS (EC2, S3), MySQL",
-      "period": "Feb 2022 - Apr 2023",
-      "highlights": [
-        "Built Node.js/Express backend APIs to power voting, content management, and social features",
-        "Engineered buffered video streaming with back-pressure handling for large video files",
-        "Deployed a scalable platform combining online voting with social media functionality"
+      "stack": "Node.js · Express · React · Redux · React Hooks · AWS EC2 · AWS S3 · MySQL · Jest",
+      "period": "Feb 2022 – Apr 2023",
+      "bullets": [
+        "Built Node.js/Express backend APIs powering voting, content management, and social features at scale.",
+        "Developed React frontend with Hooks and Redux for scalable, predictable state management.",
+        "Delivered core features: multi-option questions, file/video uploads, social login (Facebook/LinkedIn), follow/unfollow, comments, and category-based search.",
+        "Engineered buffered video streaming with back-pressure handling, ensuring smooth playback and preventing memory overload under peak usage.",
+        "Enhanced admin panel with question sorting, category management, pro-user controls, and moderation tools.",
+        "Wrote unit and integration tests with Jest, ensuring reliability and maintainability."
       ],
       "href": "#"
     },
     {
-      "img": "/images/portfolio/FxSuccessBD.png",
       "title": "BMS – Biomedical Management System",
-      "stack": "CakePHP 5.x, PHP 8.1+, MySQL, jQuery, Bootstrap, D3.js, DataTables, FullCalendar, PHPUnit",
-      "period": "Aug 2020 - Feb 2022",
-      "highlights": [
-        "Developed CakePHP 5.x system to manage material preservation, manufacturing workflows, and multi-facility operation",
-        "Implemented RBAC with granular permissions, QR/barcode tracking, PDF reporting, and multi-language support (English/Japanese)",
-        "Migrated from CakePHP 4.x → 5.x, ensuring PHP 8.1+ compatibility"
+      "stack": "CakePHP 5.x · PHP 8.1+ · MySQL · jQuery · Bootstrap · D3.js · DataTables · FullCalendar · PHPUnit · i18n",
+      "period": "Aug 2020 – Feb 2022",
+      "bullets": [
+        "Developed a CakePHP 5.x system to manage material preservation, manufacturing workflows, and multi-facility operations.",
+        "Built modular backend APIs for approval workflows, material tracking, room reservations, and process step management.",
+        "Designed interactive frontend with jQuery, Bootstrap, FullCalendar, and D3.js for scheduling, drag-and-drop reservations, and workflow analytics.",
+        "Implemented RBAC with granular permissions, QR/barcode tracking, PDF reporting, and multi-language support (English/Japanese).",
+        "Migrated codebase from CakePHP 4.x → 5.x, ensuring PHP 8.1+ compatibility and improved performance.",
+        "Wrote comprehensive PHPUnit test suites for controllers, models, and components."
       ],
       "href": "#"
     }
@@ -309,15 +334,20 @@
   },
   "home": {
     "coreStack": [
-      { "name": "JavaScript", "color": "#f7df1e" },
       { "name": "TypeScript", "color": "#3178c6" },
       { "name": "Node.js", "color": "#68a063" },
       { "name": "NestJS", "color": "#ea2845" },
       { "name": "React.js", "color": "#61dafb" },
       { "name": "Next.js", "color": "#555" },
-      { "name": "Laravel", "color": "#ff2d20" },
+      { "name": "AWS", "color": "#ff9900" },
+      { "name": "Azure", "color": "#0078d4" },
       { "name": "Docker", "color": "#2496ed" },
-      { "name": "AWS", "color": "#ff9900" }
+      { "name": "Kubernetes", "color": "#326ce5" },
+      { "name": "Microservices", "color": "#7c3aed" },
+      { "name": "Kafka", "color": "#231f20" },
+      { "name": "PostgreSQL", "color": "#336791" },
+      { "name": "CI/CD", "color": "#2088ff" },
+      { "name": "Python", "color": "#3572A5" }
     ]
   }
 }
