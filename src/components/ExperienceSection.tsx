@@ -12,7 +12,7 @@ const education = [
 
 export default function ExperienceSection() {
   return (
-    <section id="experience" className="container section">
+    <section className="container section">
       <div className="eyebrow">// experience</div>
       <h2>Professional <span className="accent-text">Experience</span></h2>
       <div className="timeline">

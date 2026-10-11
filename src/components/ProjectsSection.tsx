@@ -10,7 +10,7 @@ const projects = [
 
 export default function ProjectsSection() {
   return (
-    <section id="projects" className="container section">
+    <section className="container section">
       <div className="eyebrow">// projects</div>
       <h2>Let&apos;s See My <span className="accent-text">Work</span></h2>
       <div className="project-grid">

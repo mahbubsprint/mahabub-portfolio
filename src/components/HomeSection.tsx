@@ -1,3 +1,6 @@
+import Link from "next/link";
+import TypewriterText from "./TypewriterText";
+
 export default function HomeSection() {
   return (
     <section id="home" className="container bento-section">
@@ -9,8 +12,7 @@ export default function HomeSection() {
             <p className="hero-hello">Hello <span>👋</span>, I&apos;m</p>
             <h1 className="hero-name">Mahabub Mollah</h1>
             <p className="hero-tagline">
-              Architecting <span className="accent-text">Scalable Web Apps</span>
-              <span className="cursor">_</span>
+              Architecting <TypewriterText />
             </p>
             <p className="hero-connect">Let&apos;s Connect <span>🤝</span></p>
             <ul className="social">
@@ -27,7 +29,7 @@ export default function HomeSection() {
             <div className="card-head">
               <span className="card-icon icon-indigo">💬</span>
               <h3>AskMahabub</h3>
-              <a className="ext-link" href="#contact"><i className="fa fa-external-link" /></a>
+              <Link className="ext-link" href="/contact"><i className="fa fa-external-link" /></Link>
             </div>
             <p className="ask-desc">I&apos;m powered by Mahabub&apos;s data. Ask me anything about his projects, skills, or experience.</p>
             <input className="ask-input" type="text" placeholder="What experience does Mahabub have?" disabled />
@@ -39,8 +41,8 @@ export default function HomeSection() {
           </div>
           <div className="card explore-card">
             <h4>Explore</h4>
-            <a className="explore-row" href="#projects">View Projects <span>→</span></a>
-            <a className="explore-row" href="#experience">View Career Path <span>→</span></a>
+            <Link className="explore-row" href="/projects">View Projects <span>→</span></Link>
+            <Link className="explore-row" href="/experience">View Career Path <span>→</span></Link>
           </div>
         </div>
       </div>
@@ -50,7 +52,7 @@ export default function HomeSection() {
         <div className="card mini-card">
           <div className="card-head">
             <span className="card-icon icon-purple">🎤</span>
-            <a className="ext-link" href="#contact"><i className="fa fa-external-link" /></a>
+            <Link className="ext-link" href="/contact"><i className="fa fa-external-link" /></Link>
           </div>
           <h4>Talks</h4>
           <p className="mini-desc placeholder-text">Add your speaking engagements here</p>
@@ -68,7 +70,7 @@ export default function HomeSection() {
         <div className="card stack-card">
           <div className="stack-head">
             <h4>Core Stack</h4>
-            <a href="#skills">View All →</a>
+            <Link href="/skills">View All →</Link>
           </div>
           <hr />
           <div className="chip-row wrap">

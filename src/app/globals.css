@@ -95,21 +95,32 @@ h2 { font-size: 32px; font-weight: 700; margin-bottom: 30px; }
 .hero-row { grid-template-columns: 2fr 1fr; align-items: stretch; }
 .side-col { display: flex; flex-direction: column; gap: var(--gap); }
 .three-col { grid-template-columns: 1fr 1fr 2fr; }
-.hero-card { position: relative; min-height: 420px; overflow: hidden; display: flex; align-items: flex-end; padding: 48px; }
+.hero-card { position: relative; min-height: 480px; overflow: hidden; display: flex; align-items: center; padding: 56px; }
 .hero-bg {
   position: absolute; inset: 0;
-  background: radial-gradient(circle at 25% 25%, rgba(59,130,246,0.35) 0%, transparent 45%),
-              radial-gradient(circle at 75% 65%, rgba(34,211,238,0.28) 0%, transparent 45%),
-              linear-gradient(135deg, #0c1a2b 0%, #0a0a0d 60%);
-  filter: blur(6px); opacity: 0.9;
+  background:
+    radial-gradient(ellipse at 80% 50%, rgba(15, 110, 90, 0.65) 0%, transparent 55%),
+    radial-gradient(ellipse at 20% 70%, rgba(5, 30, 60, 0.7) 0%, transparent 50%),
+    radial-gradient(ellipse at 50% 20%, rgba(0, 60, 80, 0.4) 0%, transparent 45%),
+    linear-gradient(135deg, #030d18 0%, #041510 100%);
+  filter: blur(0px);
+}
+.hero-bg::after {
+  content: "";
+  position: absolute; inset: 0;
+  background:
+    linear-gradient(rgba(255,255,255,0.015) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(255,255,255,0.015) 1px, transparent 1px);
+  background-size: 36px 36px;
 }
 .hero-content { position: relative; z-index: 1; }
-.hero-hello { font-size: 16px; color: var(--text-muted); margin-bottom: 6px; }
-.hero-name { font-size: 42px; font-weight: 700; letter-spacing: -1px; margin-bottom: 10px; }
-.hero-tagline { font-size: 20px; color: var(--text-muted); margin-bottom: 18px; }
-.cursor { display: inline-block; color: var(--accent); animation: blink 1s step-start infinite; }
+.hero-hello { font-size: 20px; color: var(--text-muted); margin-bottom: 8px; }
+.hero-name { font-size: 56px; font-weight: 800; letter-spacing: -2px; margin-bottom: 14px; line-height: 1.1; }
+.hero-tagline { font-size: 24px; color: var(--text-muted); margin-bottom: 24px; }
+.cursor { display: inline-block; color: var(--accent); animation: blink 0.75s step-start infinite; margin-left: 1px; }
 @keyframes blink { 50% { opacity: 0; } }
-.hero-connect { font-size: 14px; color: var(--text-muted); margin-bottom: 12px; }
+.typewriter-text { min-width: 1ch; }
+.hero-connect { font-size: 15px; color: var(--text-muted); margin-bottom: 14px; }
 .social { display: flex; gap: 10px; }
 .social li a {
   width: 40px; height: 40px; display: inline-flex; align-items: center; justify-content: center;
@@ -209,11 +220,13 @@ h2 { font-size: 32px; font-weight: 700; margin-bottom: 30px; }
 .skills-card { padding: 26px; }
 .contact-card { padding: 30px; display: flex; align-items: center; justify-content: space-between; gap: 20px; flex-wrap: wrap; }
 .contact-card .address { color: var(--text-muted); line-height: 1.8; font-size: 14px; }
-.footer-section { border-top: 1px solid var(--border); padding: 50px 0; }
-.social-links { display: flex; justify-content: center; gap: 10px; margin: 14px 0 26px 0; }
-.social-links li a { width: 40px; height: 40px; display: inline-flex; align-items: center; justify-content: center; background-color: var(--surface); border: 1px solid var(--border); border-radius: var(--radius-sm); color: var(--text-muted); transition: all 0.25s ease; }
+.footer-section { border-top: 1px solid var(--border); padding: 40px 0; }
+.footer-inner { display: flex; flex-direction: column; gap: 16px; }
+.footer-inner .eyebrow { margin-bottom: 0; }
+.social-links { display: flex; gap: 10px; }
+.social-links li a { width: 38px; height: 38px; display: inline-flex; align-items: center; justify-content: center; background-color: var(--surface); border: 1px solid var(--border); border-radius: var(--radius-sm); color: var(--text-muted); font-size: 15px; transition: all 0.25s ease; }
 .social-links li a:hover { background-color: var(--accent); border-color: var(--accent); color: #fff; }
-.footer-bottom { display: flex; justify-content: center; flex-wrap: wrap; gap: 20px; font-size: 12px; color: var(--text-faint); }
+.footer-bottom { font-size: 12px; color: var(--text-faint); }
 
 @media (max-width: 1100px) { .philosophy-grid { grid-template-columns: repeat(2,1fr); } }
 @media (max-width: 991px) {

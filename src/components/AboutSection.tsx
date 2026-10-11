@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 
 const philosophy = [
   { icon: "🖥️", cls: "icon-teal", title: "User-Centric Engineering", desc: "I build applications that feel as good as they look — balancing architectural discipline with focus on user experience and accessibility." },
@@ -18,7 +19,7 @@ const aboutChips = [
 
 export default function AboutSection() {
   return (
-    <section id="about" className="container section">
+    <section className="container section">
       <div className="eyebrow">// about</div>
 
       <div className="about-grid">

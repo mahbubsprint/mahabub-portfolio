@@ -18,7 +18,7 @@ const skills = [
 
 export default function SkillsSection() {
   return (
-    <section id="skills" className="container section">
+    <section className="container section">
       <div className="eyebrow">// skills</div>
       <h2>Technical <span className="accent-text">Skills</span></h2>
       <div className="card skills-card">

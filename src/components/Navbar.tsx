@@ -1,50 +1,45 @@
 "use client";
 import { useEffect, useState } from "react";
 import Image from "next/image";
+import Link from "next/link";
+import { usePathname } from "next/navigation";
 
-const links = ["home", "about", "experience", "projects", "skills", "contact"];
+const links = [
+  { label: "Home", href: "/" },
+  { label: "About", href: "/about" },
+  { label: "Experience", href: "/experience" },
+  { label: "Projects", href: "/projects" },
+  { label: "Skills", href: "/skills" },
+  { label: "Contact", href: "/contact" },
+];
 
 export default function Navbar() {
   const [scrolled, setScrolled] = useState(false);
-  const [active, setActive] = useState("home");
+  const pathname = usePathname();
 
   useEffect(() => {
-    const onScroll = () => {
-      setScrolled(window.scrollY > 50);
-      const sections = document.querySelectorAll("main > section[id]");
-      let current = "home";
-      sections.forEach((sec) => {
-        if (window.scrollY + 90 >= (sec as HTMLElement).offsetTop) {
-          current = sec.id;
-        }
-      });
-      setActive(current);
-    };
+    const onScroll = () => setScrolled(window.scrollY > 50);
     window.addEventListener("scroll", onScroll, { passive: true });
     return () => window.removeEventListener("scroll", onScroll);
   }, []);
 
-  const scrollTo = (id: string) => {
-    document.getElementById(id)?.scrollIntoView({ behavior: "smooth" });
-  };
-
   return (
     <header id="top-nav" className={scrolled ? "scrolled" : ""}>
       <div className="nav-inner container">
-        <a href="#home" className="brand" onClick={(e) => { e.preventDefault(); scrollTo("home"); }}>
+        <Link href="/" className="brand">
           <Image src="/images/profile/1.jpg" className="brand-avatar" alt="Mahabub Mollah" width={32} height={32} />
           MAHABUB.
-        </a>
+        </Link>
 
         <nav className="nav-links">
           {links.map((l) => (
-            <button
-              key={l}
-              className={`link-item${active === l ? " active" : ""}`}
-              onClick={() => scrollTo(l)}
+            <Link
+              key={l.href}
+              href={l.href}
+              className={`link-item${pathname === l.href ? " active" : ""}`}
             >
-              {l.charAt(0).toUpperCase() + l.slice(1)}
-            </button>
+              {l.label}
+            </Link>
           ))}
         </nav>
 
@@ -62,10 +57,8 @@ export default function Navbar() {
           <span /><span /><span />
           <ul id="menu">
             {links.map((l) => (
-              <li key={l}>
-                <button className="link-item" onClick={() => scrollTo(l)}>
-                  {l.charAt(0).toUpperCase() + l.slice(1)}
-                </button>
+              <li key={l.href}>
+                <Link href={l.href} className="link-item">{l.label}</Link>
               </li>
             ))}
             <li><a href="/mahbub.docx" className="link-item nav-cta-mobile">Resume</a></li>
