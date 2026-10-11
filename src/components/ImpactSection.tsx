@@ -8,7 +8,7 @@ export default function ImpactSection() {
     <section className="impact-section">
       <div className="container text-center">
         <h2>Engineering <span className="accent-text">Impact</span>.</h2>
-        <p className="impact-sub placeholder-text">{impact.subtitle}</p>
+        <p className="impact-sub">{impact.subtitle}</p>
         <MacWindow title="mahabub@portfolio — impact" cmd="Engineering Impact Loaded.">
           <div className="stat-grid">
             {impact.stats.map((s) => (
@@ -21,7 +21,7 @@ export default function ImpactSection() {
                   {s.arrow && <span className="stat-icon-up">↑</span>}
                 </div>
                 <hr />
-                <p className="placeholder-text">{s.desc}</p>
+                <p>{s.desc}</p>
               </div>
             ))}
           </div>

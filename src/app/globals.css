@@ -210,7 +210,7 @@ h2 { font-size: 32px; font-weight: 700; margin-bottom: 30px; }
 }
 .impact-section h2 { font-size: 36px; }
 .impact-sub { max-width: 640px; margin: 0 auto 50px auto; color: var(--text-muted); font-size: 15px; line-height: 1.7; }
-.stat-grid { display: grid; grid-template-columns: repeat(4,1fr); gap: var(--gap); }
+.stat-grid { display: grid; grid-template-columns: repeat(3,1fr); gap: var(--gap); }
 .stat-card { padding: 26px; text-align: left; position: relative; overflow: hidden; }
 .stat-bg-icon { position: absolute; right: 14px; bottom: 10px; font-size: 80px; opacity: 0.07; user-select: none; pointer-events: none; line-height: 1; }
 .stat-card h5 { font-size: 13px; font-weight: 600; color: var(--text-muted); margin-bottom: 14px; position: relative; }
@@ -358,7 +358,8 @@ h2 { font-size: 32px; font-weight: 700; margin-bottom: 30px; }
 }
 @media (max-width: 991px) {
   .hero-row, .three-col, .about-grid { grid-template-columns: 1fr; }
-  .stat-grid, .project-grid { grid-template-columns: repeat(2,1fr); }
+  .stat-grid { grid-template-columns: repeat(2,1fr); }
+  .project-grid { grid-template-columns: repeat(2,1fr); }
   .testimonial-grid, .philosophy-grid { grid-template-columns: repeat(2,1fr); }
   .skills-grid { grid-template-columns: repeat(2,1fr); }
 }

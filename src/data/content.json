@@ -3,8 +3,8 @@
     "name": "Mahabub Mollah",
     "title": "Mahabub Mollah — Principal Software Engineer",
     "description": "Portfolio of Mahabub Mollah, Principal Software Engineer with 8+ years of experience in cloud-native applications, microservices, and full-stack development.",
-    "tagline": "Architecting",
-    "role": "Principal Software Engineer | 8+ Years",
+    "tagline": "Building",
+    "role": "Principal Engineer · System Architect · 8+ Years",
     "location": "Dhaka, Bangladesh",
     "email": "mahbubsprint310@gmail.com",
     "phone": "01781227493",
@@ -18,15 +18,15 @@
     "skype": "skype:extreme_mahbub?userinfo"
   },
   "typewriterPhrases": [
-    "Cloud-Native Applications",
-    "Microservices Architecture",
-    "Full Stack Solutions",
-    "Scalable Web Apps",
-    "AI-Powered Workflows",
-    "High-Performance APIs"
+    "Distributed Systems at Scale",
+    "Cloud-Native Microservices",
+    "Engineering Team Leadership",
+    "AI-Powered Engineering",
+    "High-Performance APIs",
+    "Full-Stack Production Systems"
   ],
   "about": {
-    "bio": "Principal Software Engineer with 8+ years designing, architecting, and scaling full-stack systems that solve real business problems. I specialize in building high-performance microservices, mentoring high-performing teams, and delivering production-ready solutions that impact millions of users. I work across the full stack — from designing REST APIs and microservices with Node.js/NestJS to building scalable frontends with React and Next.js. Passionate about clean code, design patterns, AI integration, and building systems that don't just work, but scale.",
+    "bio": "Principal Software Engineer & System Architect with 8+ years delivering production systems at scale. At BJIT, I architected platforms handling 500K+ daily transactions at 99.9% uptime, mentored 8+ engineers across full product lifecycles, and drove CI/CD transformations that cut deployment failures from 15% → 2%. I build across the full stack — NestJS/Node.js microservices to React/Next.js frontends — and integrate AI tools (OpenAI GPT, Claude, Cursor AI) to amplify team velocity. Open to Principal Engineer, Staff Engineer, or Tech Lead roles in product-driven engineering organizations.",
     "techStack": [
       { "name": "TypeScript", "color": "#3178c6" },
       { "name": "Node.js", "color": "#68a063" },
@@ -35,32 +35,34 @@
       { "name": "Next.js", "color": "#555" },
       { "name": "AWS", "color": "#ff9900" },
       { "name": "Docker", "color": "#2496ed" },
-      { "name": "Kubernetes", "color": "#326ce5" }
+      { "name": "Kubernetes", "color": "#326ce5" },
+      { "name": "Redis", "color": "#dc382d" },
+      { "name": "GraphQL", "color": "#e535ab" }
     ],
     "philosophy": [
       {
         "icon": "🏗️",
         "cls": "icon-teal",
         "title": "Cloud-Native Architecture",
-        "desc": "I design and implement cloud-native applications on AWS and Azure, using microservices, API Gateway, and Saga patterns to enable independent scaling and resilient deployments."
+        "desc": "I architect cloud-native platforms on AWS and Azure using microservices, API Gateway, and Saga patterns — handling 500K+ daily transactions at 99.9% uptime with independent scaling and resilient deployments."
       },
       {
         "icon": "⚡",
         "cls": "icon-purple",
         "title": "Performance Engineering",
-        "desc": "I reduce response times by 40%+ through query optimization, caching strategies, cursor-based pagination, and efficient data pipelines in PostgreSQL and MySQL."
+        "desc": "I eliminate bottlenecks through query optimization (55% faster), caching strategies, cursor-based pagination, and efficient data pipelines — reducing page load times from 3s to 1.2s and bundle sizes by 35%."
       },
       {
         "icon": "🔒",
         "cls": "icon-green",
-        "title": "Security & Reliability",
-        "desc": "I apply IAM governance, secrets management, and encryption standards. CI/CD pipelines with Docker and Kubernetes reduce deployment effort by 70% and improve reliability."
+        "title": "DevOps & Reliability",
+        "desc": "CI/CD pipelines with Docker and Kubernetes cut deployment effort by 70% and reduced deployment failures from 15% to 2%. I apply IAM governance, secrets management, and encryption at every layer."
       },
       {
         "icon": "👥",
         "cls": "icon-amber",
-        "title": "Mentorship & Leadership",
-        "desc": "Engineering is a team sport. I lead cross-functional teams through sprint planning, code reviews, and mentoring — recognized as Best Performer of the Year at BJIT."
+        "title": "Technical Leadership",
+        "desc": "I've mentored 8+ engineers across full product lifecycles — 3 promoted to mid-level, 2 leading independent projects. I set architecture standards, run design reviews, and align engineering execution with business goals."
       }
     ],
     "testimonials": [
@@ -344,39 +346,55 @@
     }
   ],
   "impact": {
-    "subtitle": "Measurable results across performance, infrastructure, and team productivity.",
+    "subtitle": "Measurable results across performance, reliability, infrastructure, and people.",
     "stats": [
       {
-        "label": "Response Time Reduced",
-        "value": "40",
-        "unit": "%",
-        "icon": "⚡",
-        "arrow": true,
-        "desc": "Via query optimization, caching strategies, and cursor-based pagination in PostgreSQL/MySQL."
+        "label": "Daily Transactions",
+        "value": "500K+",
+        "unit": "",
+        "icon": "📊",
+        "arrow": false,
+        "desc": "Architected cloud-native microservices platform sustaining 500K+ daily transactions at 99.9% uptime."
       },
       {
-        "label": "Deployment Effort Cut",
-        "value": "70",
-        "unit": "%",
+        "label": "Deployment Failures",
+        "value": "15% → 2%",
+        "unit": "",
         "icon": "🚀",
-        "arrow": true,
-        "desc": "CI/CD pipelines with Docker and Kubernetes reduced manual deployment effort significantly."
+        "arrow": false,
+        "desc": "CI/CD pipelines with Docker and Kubernetes eliminated deployment instability across all environments."
       },
       {
-        "label": "Latency Reduced",
-        "value": "60",
-        "unit": "%",
-        "icon": "📡",
-        "arrow": true,
-        "desc": "Kafka pipelines with push-pull model, scaling throughput to millions of events per second."
+        "label": "Release Cycle Speed",
+        "value": "10x",
+        "unit": "",
+        "icon": "⚡",
+        "arrow": false,
+        "desc": "Containerized monolith to Docker/Kubernetes — transformed 2-week sprints to continuous daily deployments."
       },
       {
-        "label": "Developer Productivity",
-        "value": "25",
+        "label": "Query Performance",
+        "value": "55",
         "unit": "%",
-        "icon": "🤖",
+        "icon": "🗄️",
         "arrow": true,
-        "desc": "Integrated AI-driven tools (GPT, Claude, Cursor AI) into engineering workflows."
+        "desc": "Optimized PostgreSQL/MySQL queries and schemas — reduced execution time by 55% across production systems."
+      },
+      {
+        "label": "Engineers Mentored",
+        "value": "8+",
+        "unit": "",
+        "icon": "👥",
+        "arrow": false,
+        "desc": "Led and mentored cross-functional teams — 3 promoted to mid-level, 2 leading independent projects."
+      },
+      {
+        "label": "Infrastructure Cost Cut",
+        "value": "30",
+        "unit": "%",
+        "icon": "☁️",
+        "arrow": true,
+        "desc": "Right-sizing, containerization, and cloud-native patterns reduced AWS/Azure infrastructure costs by 30%."
       }
     ]
   },
@@ -387,13 +405,15 @@
       { "name": "NestJS", "color": "#ea2845" },
       { "name": "React.js", "color": "#61dafb" },
       { "name": "Next.js", "color": "#555" },
+      { "name": "Microservices", "color": "#7c3aed" },
       { "name": "AWS", "color": "#ff9900" },
       { "name": "Azure", "color": "#0078d4" },
       { "name": "Docker", "color": "#2496ed" },
       { "name": "Kubernetes", "color": "#326ce5" },
-      { "name": "Microservices", "color": "#7c3aed" },
       { "name": "Kafka", "color": "#231f20" },
       { "name": "PostgreSQL", "color": "#336791" },
+      { "name": "Redis", "color": "#dc382d" },
+      { "name": "GraphQL", "color": "#e535ab" },
       { "name": "CI/CD", "color": "#2088ff" },
       { "name": "Python", "color": "#3572A5" }
     ]
