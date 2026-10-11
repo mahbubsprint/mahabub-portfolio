@@ -1,23 +1,17 @@
 import MacWindow from "./MacWindow";
+import content from "@/data/content.json";
 
-const stats = [
-  { label: "Metric One", value: "XX", unit: "+", icon: "👥", arrow: false, desc: "Describe this stat here." },
-  { label: "Metric Two", value: "XX", unit: "%", icon: "⚡", arrow: true, desc: "Describe this stat here." },
-  { label: "Metric Three", value: "XX", unit: "+", icon: "🌍", arrow: false, desc: "Describe this stat here." },
-  { label: "Metric Four", value: "XX", unit: "%", icon: "🛡️", arrow: true, desc: "Describe this stat here." },
-];
+const { impact } = content;
 
 export default function ImpactSection() {
   return (
     <section className="impact-section">
       <div className="container text-center">
         <h2>Engineering <span className="accent-text">Impact</span>.</h2>
-        <p className="impact-sub placeholder-text">
-          Add a short line here about the measurable impact of your engineering work.
-        </p>
+        <p className="impact-sub placeholder-text">{impact.subtitle}</p>
         <MacWindow title="mahabub@portfolio — impact" cmd="Engineering Impact Loaded.">
           <div className="stat-grid">
-            {stats.map((s) => (
+            {impact.stats.map((s) => (
               <div key={s.label} className="card stat-card">
                 <div className="stat-bg-icon">{s.icon}</div>
                 <h5>{s.label}</h5>

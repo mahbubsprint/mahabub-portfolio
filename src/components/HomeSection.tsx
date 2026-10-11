@@ -1,5 +1,8 @@
 import Link from "next/link";
 import TypewriterText from "./TypewriterText";
+import content from "@/data/content.json";
+
+const { site, social, home } = content;
 
 export default function HomeSection() {
   return (
@@ -10,16 +13,16 @@ export default function HomeSection() {
           <div className="hero-bg" />
           <div className="hero-content">
             <p className="hero-hello">Hello <span>👋</span>, I&apos;m</p>
-            <h1 className="hero-name">Mahabub Mollah</h1>
+            <h1 className="hero-name">{site.name}</h1>
             <p className="hero-tagline">
-              Architecting <TypewriterText />
+              {site.tagline} <TypewriterText />
             </p>
             <p className="hero-connect">Let&apos;s Connect <span>🤝</span></p>
             <ul className="social">
-              <li><a href="https://bd.linkedin.com/in/mahbubsprint" target="_blank" rel="noreferrer"><i className="fa fa-linkedin" /></a></li>
-              <li><a href="https://github.com/mahbubsprint" target="_blank" rel="noreferrer"><i className="fa fa-github" /></a></li>
-              <li><a href="https://www.facebook.com/mahbubsprint" target="_blank" rel="noreferrer"><i className="fa fa-facebook" /></a></li>
-              <li><a href="skype:extreme_mahbub?userinfo"><i className="fa fa-skype" /></a></li>
+              <li><a href={social.linkedin} target="_blank" rel="noreferrer"><i className="fa fa-linkedin" /></a></li>
+              <li><a href={social.github} target="_blank" rel="noreferrer"><i className="fa fa-github" /></a></li>
+              <li><a href={social.facebook} target="_blank" rel="noreferrer"><i className="fa fa-facebook" /></a></li>
+              <li><a href={social.skype}><i className="fa fa-skype" /></a></li>
             </ul>
           </div>
         </div>
@@ -61,7 +64,7 @@ export default function HomeSection() {
         <div className="card mini-card">
           <div className="card-head">
             <span className="card-icon icon-green">🌿</span>
-            <a className="ext-link" href="https://github.com/mahbubsprint" target="_blank" rel="noreferrer"><i className="fa fa-external-link" /></a>
+            <a className="ext-link" href={social.github} target="_blank" rel="noreferrer"><i className="fa fa-external-link" /></a>
           </div>
           <h4>Top Contributions</h4>
           <p className="mini-desc placeholder-text">Add your open-source contributions here</p>
@@ -74,17 +77,7 @@ export default function HomeSection() {
           </div>
           <hr />
           <div className="chip-row wrap">
-            {[
-              { name: "PHP", color: "#e44d26" },
-              { name: "Laravel", color: "#ff2d20" },
-              { name: "CakePHP", color: "#e84393" },
-              { name: "JavaScript", color: "#f7df1e" },
-              { name: "React.js", color: "#61dafb" },
-              { name: "Node.js", color: "#68a063" },
-              { name: "Next.js", color: "#555" },
-              { name: "Express.js", color: "#68a063" },
-              { name: "MongoDB", color: "#4db33d" },
-            ].map((t) => (
+            {home.coreStack.map((t) => (
               <span key={t.name} className="tech-chip">
                 <span className="chip-dot" style={{ background: t.color }} />
                 {t.name}

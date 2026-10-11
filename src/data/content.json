@@ -1,0 +1,275 @@
+{
+  "site": {
+    "name": "Mahabub Mollah",
+    "title": "Mahabub Mollah — Full Stack Developer",
+    "description": "Portfolio of Mahabub Mollah, Full Stack Developer specializing in PHP, Laravel, React.js, Node.js and MongoDB.",
+    "tagline": "Architecting",
+    "role": "Full Stack Developer | 8+ Years",
+    "location": "Kollyanpur, Dhaka, Bangladesh",
+    "email": "mahbubsprint310@gmail.com",
+    "phone": "01781227493",
+    "resumeFile": "/mahbub.docx",
+    "profileImage": "/images/profile/1.jpg"
+  },
+  "social": {
+    "linkedin": "https://bd.linkedin.com/in/mahbubsprint",
+    "github": "https://github.com/mahbubsprint",
+    "facebook": "https://www.facebook.com/mahbubsprint",
+    "skype": "skype:extreme_mahbub?userinfo"
+  },
+  "typewriterPhrases": [
+    "Scalable Web Apps",
+    "Full Stack Solutions",
+    "Modern REST APIs",
+    "Robust Backend Systems",
+    "React Experiences",
+    "High-Performance Apps"
+  ],
+  "about": {
+    "bio": "As a Full-stack developer, I always allow myself to attain technical skills as well as to cope up with new technologies. I am highly skilled with PHP, Laravel, CakePHP, JavaScript, React.js, Node.js, Next.js and MongoDB. I have 8+ years of experience developing different web applications and I am eager to learn new technologies.",
+    "techStack": [
+      { "name": "PHP", "color": "#e44d26" },
+      { "name": "Laravel", "color": "#ff2d20" },
+      { "name": "React.js", "color": "#61dafb" },
+      { "name": "Node.js", "color": "#68a063" },
+      { "name": "JavaScript", "color": "#f7df1e" },
+      { "name": "Next.js", "color": "#555" }
+    ],
+    "philosophy": [
+      {
+        "icon": "🖥️",
+        "cls": "icon-teal",
+        "title": "User-Centric Engineering",
+        "desc": "I build applications that feel as good as they look — balancing architectural discipline with focus on user experience and accessibility."
+      },
+      {
+        "icon": "⚙️",
+        "cls": "icon-purple",
+        "title": "Scalable Architecture",
+        "desc": "My backend philosophy is simple: use the best tool for the job. I architect high-concurrency services using Laravel, Node.js, and RESTful APIs."
+      },
+      {
+        "icon": "🗄️",
+        "cls": "icon-green",
+        "title": "Robust Infrastructure",
+        "desc": "Great software needs a solid foundation. From relational databases to MongoDB, I design data ecosystems that scale with the product."
+      },
+      {
+        "icon": "👥",
+        "cls": "icon-amber",
+        "title": "Collaboration & Growth",
+        "desc": "Engineering is a team sport. I value clear communication, thorough code reviews, and mentoring — building better engineers alongside better products."
+      }
+    ],
+    "testimonials": [
+      {
+        "initial": "A",
+        "name": "Colleague Name",
+        "jobTitle": "Title @ Company",
+        "text": "Add a testimonial from a colleague or manager here. Great testimonials speak to your specific impact and working style."
+      },
+      {
+        "initial": "B",
+        "name": "Colleague Name",
+        "jobTitle": "Title @ Company",
+        "text": "Add a testimonial from a colleague or manager here. Great testimonials speak to your specific impact and working style."
+      }
+    ]
+  },
+  "experience": {
+    "jobs": [
+      {
+        "title": "Software Engineer",
+        "org": "BJIT Limited",
+        "location": "Dhaka, Bangladesh",
+        "period": "2020 - Till Now",
+        "desc": "Requirement gathering • Requirement Analysis • System Impact Analysis • System Design • Change Request Management • Bug Analysis • Bug Reproduction • Verification • Coding • Testing • Estimations."
+      },
+      {
+        "title": "Associate Software Engineer",
+        "org": "Antopolish",
+        "location": "Dhaka, Bangladesh",
+        "period": "2018 - 2020",
+        "desc": "Developed Web Application • Requirement gathering • Requirement analysis • Database design • Bug Analysis • Bug Reproduction • Verification • Coding • Testing • Estimations."
+      },
+      {
+        "title": "Web Developer",
+        "org": "Future Track It",
+        "location": "Dhaka, Bangladesh",
+        "period": "2016 - 2017",
+        "desc": "Developed Web Application • Requirement gathering • Requirement analysis • Database design • Bug Analysis • Bug Reproduction • Verification • Coding • Testing • Estimations."
+      }
+    ],
+    "education": [
+      {
+        "title": "Dhaka International University",
+        "org": "B.Sc in Computer Science and Engineering",
+        "desc": "CGPA: 3.60 • Dhaka, Bangladesh"
+      },
+      {
+        "title": "Saheed Police Smrity College",
+        "org": "Higher Secondary Studies in Science",
+        "desc": "H.S.C • Science • Dhaka, Bangladesh"
+      },
+      {
+        "title": "Malkhanagar Highschool & College",
+        "org": "Secondary School Certificate",
+        "desc": "S.S.C • Science • Munshigonj, Dhaka, Bangladesh"
+      }
+    ]
+  },
+  "projects": [
+    {
+      "img": "/images/portfolio/Biyeshamlao.png",
+      "title": "Wedding Management Application",
+      "stack": "Laravel, JQuery, Bootstrap, CSS",
+      "href": "#"
+    },
+    {
+      "img": "/images/portfolio/PeopleScape.png",
+      "title": "Peoplescape for HR",
+      "stack": "Laravel, JQuery, CSS",
+      "href": "#"
+    },
+    {
+      "img": "/images/portfolio/FxSuccessBD.png",
+      "title": "Forex Trading Site",
+      "stack": "Laravel, JQuery, Bootstrap3, CSS",
+      "href": "#"
+    },
+    {
+      "img": "/images/portfolio/Willvote.png",
+      "title": "Mobile User Based Voting App",
+      "stack": "Laravel, React.js",
+      "href": "#"
+    },
+    {
+      "img": "/images/portfolio/Bms.png",
+      "title": "Bimatric Solution",
+      "stack": "CakePHP, JQuery, Bootstrap3, CSS",
+      "href": "#"
+    }
+  ],
+  "skills": [
+    {
+      "icon": "💻",
+      "ghost": "</>",
+      "label": "Languages",
+      "skills": [
+        { "name": "PHP", "color": "#e44d26" },
+        { "name": "JavaScript", "color": "#f7df1e" },
+        { "name": "HTML", "color": "#e34c26" },
+        { "name": "CSS", "color": "#1572b6" },
+        { "name": "TypeScript", "color": "#3178c6" },
+        { "name": "SQL", "color": "#4479a1" }
+      ]
+    },
+    {
+      "icon": "🖥️",
+      "ghost": "◻",
+      "label": "Frontend",
+      "skills": [
+        { "name": "React.js", "color": "#61dafb" },
+        { "name": "Next.js", "color": "#555" },
+        { "name": "jQuery", "color": "#0769ad" },
+        { "name": "Bootstrap", "color": "#7952b3" },
+        { "name": "Ajax", "color": "#0076c6" }
+      ]
+    },
+    {
+      "icon": "⚙️",
+      "ghost": "⚙",
+      "label": "Backend",
+      "skills": [
+        { "name": "Laravel", "color": "#ff2d20" },
+        { "name": "CakePHP", "color": "#e84393" },
+        { "name": "Node.js", "color": "#68a063" },
+        { "name": "Express.js", "color": "#68a063" },
+        { "name": "Magento 2x", "color": "#f47621" }
+      ]
+    },
+    {
+      "icon": "🗄️",
+      "ghost": "◫",
+      "label": "Databases",
+      "skills": [
+        { "name": "MongoDB", "color": "#4db33d" },
+        { "name": "MySQL", "color": "#4479a1" },
+        { "name": "PostgreSQL", "color": "#336791" }
+      ]
+    },
+    {
+      "icon": "🔧",
+      "ghost": "⚒",
+      "label": "Tools & DevOps",
+      "skills": [
+        { "name": "Git", "color": "#f05032" },
+        { "name": "GitHub", "color": "#555" },
+        { "name": "VS Code", "color": "#007acc" },
+        { "name": "Postman", "color": "#ff6c37" },
+        { "name": "npm", "color": "#cb3837" }
+      ]
+    },
+    {
+      "icon": "☁️",
+      "ghost": "☁",
+      "label": "Cloud & Hosting",
+      "skills": [
+        { "name": "GitHub Pages", "color": "#333" },
+        { "name": "Vercel", "color": "#555" },
+        { "name": "AWS", "color": "#ff9900" },
+        { "name": "cPanel", "color": "#ff6c37" }
+      ]
+    }
+  ],
+  "impact": {
+    "subtitle": "Add a short line here about the measurable impact of your engineering work.",
+    "stats": [
+      {
+        "label": "Metric One",
+        "value": "XX",
+        "unit": "+",
+        "icon": "👥",
+        "arrow": false,
+        "desc": "Describe this stat here."
+      },
+      {
+        "label": "Metric Two",
+        "value": "XX",
+        "unit": "%",
+        "icon": "⚡",
+        "arrow": true,
+        "desc": "Describe this stat here."
+      },
+      {
+        "label": "Metric Three",
+        "value": "XX",
+        "unit": "+",
+        "icon": "🌍",
+        "arrow": false,
+        "desc": "Describe this stat here."
+      },
+      {
+        "label": "Metric Four",
+        "value": "XX",
+        "unit": "%",
+        "icon": "🛡️",
+        "arrow": true,
+        "desc": "Describe this stat here."
+      }
+    ]
+  },
+  "home": {
+    "coreStack": [
+      { "name": "PHP", "color": "#e44d26" },
+      { "name": "Laravel", "color": "#ff2d20" },
+      { "name": "CakePHP", "color": "#e84393" },
+      { "name": "JavaScript", "color": "#f7df1e" },
+      { "name": "React.js", "color": "#61dafb" },
+      { "name": "Node.js", "color": "#68a063" },
+      { "name": "Next.js", "color": "#555" },
+      { "name": "Express.js", "color": "#68a063" },
+      { "name": "MongoDB", "color": "#4db33d" }
+    ]
+  }
+}

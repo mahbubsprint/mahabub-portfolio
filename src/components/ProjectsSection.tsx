@@ -1,13 +1,8 @@
 import Image from "next/image";
 import MacWindow from "./MacWindow";
+import content from "@/data/content.json";
 
-const projects = [
-  { img: "/images/portfolio/Biyeshamlao.png", title: "Weeding Management Application", stack: "Laravel, JQuery, Bootstrap, CSS", href: "#" },
-  { img: "/images/portfolio/PeopleScape.png", title: "Peoplescape for HR", stack: "Laravel, JQuery, CSS", href: "#" },
-  { img: "/images/portfolio/FxSuccessBD.png", title: "Forex Trading Site", stack: "Laravel, JQuery, Bootstrap3, CSS", href: "#" },
-  { img: "/images/portfolio/Willvote.png", title: "Mobile User Based Voting App", stack: "Laravel, React.js", href: "#" },
-  { img: "/images/portfolio/Bms.png", title: "Bimatric Solution", stack: "CakePHP, JQuery, Bootstrap3, CSS", href: "#" },
-];
+const { projects } = content;
 
 export default function ProjectsSection() {
   return (

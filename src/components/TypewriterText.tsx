@@ -1,14 +1,8 @@
 "use client";
 import { useEffect, useState } from "react";
+import content from "@/data/content.json";
 
-const phrases = [
-  "Scalable Web Apps",
-  "Full Stack Solutions",
-  "Modern REST APIs",
-  "Robust Backend Systems",
-  "React Experiences",
-  "High-Performance Apps",
-];
+const phrases = content.typewriterPhrases;
 
 export default function TypewriterText() {
   const [displayed, setDisplayed] = useState("");

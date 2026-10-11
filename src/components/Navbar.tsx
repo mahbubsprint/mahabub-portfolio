@@ -3,6 +3,9 @@ import { useEffect, useRef, useState } from "react";
 import Image from "next/image";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
+import content from "@/data/content.json";
+
+const { site, social } = content;
 
 const links = [
   { label: "Home", href: "/" },
@@ -20,15 +23,27 @@ export default function Navbar() {
   const dropRef = useRef<HTMLDivElement>(null);
   const pathname = usePathname();
 
+  // Read saved theme on mount
+  useEffect(() => {
+    const saved = localStorage.getItem("theme");
+    const isDark = saved !== "light";
+    setDarkMode(isDark);
+    document.documentElement.setAttribute("data-theme", isDark ? "dark" : "light");
+  }, []);
+
   useEffect(() => {
     const onScroll = () => setScrolled(window.scrollY > 50);
     window.addEventListener("scroll", onScroll, { passive: true });
     return () => window.removeEventListener("scroll", onScroll);
   }, []);
 
-  useEffect(() => {
-    document.documentElement.setAttribute("data-theme", darkMode ? "dark" : "light");
-  }, [darkMode]);
+  const toggleTheme = () => {
+    const next = !darkMode;
+    setDarkMode(next);
+    const theme = next ? "dark" : "light";
+    localStorage.setItem("theme", theme);
+    document.documentElement.setAttribute("data-theme", theme);
+  };
 
   useEffect(() => {
     const handler = (e: MouseEvent) => {
@@ -44,7 +59,7 @@ export default function Navbar() {
     <header id="top-nav" className={scrolled ? "scrolled" : ""}>
       <div className="nav-inner container">
         <Link href="/" className="brand">
-          <Image src="/images/profile/1.jpg" className="brand-avatar" alt="Mahabub Mollah" width={32} height={32} />
+          <Image src={site.profileImage} className="brand-avatar" alt={site.name} width={32} height={32} />
           MAHABUB.
         </Link>
 
@@ -58,7 +73,7 @@ export default function Navbar() {
 
         <div className="nav-actions">
           <div className="nav-cta-wrapper" ref={dropRef}>
-            <a href="/mahbub.docx" className="nav-cta">
+            <a href={site.resumeFile} className="nav-cta">
               Resume <i className="fa fa-external-link" />
             </a>
             <button className="nav-cta-caret" onClick={() => setDropOpen((p) => !p)}>
@@ -67,17 +82,17 @@ export default function Navbar() {
 
             {dropOpen && (
               <div className="nav-dropdown">
-                <a className="drop-item" href="https://github.com/mahbubsprint" target="_blank" rel="noreferrer">
+                <a className="drop-item" href={social.github} target="_blank" rel="noreferrer">
                   <i className="fa fa-github" /> GitHub Profile
                 </a>
-                <a className="drop-item" href="/mahbub.docx">
+                <a className="drop-item" href={site.resumeFile}>
                   <i className="fa fa-download" /> Download Resume
                 </a>
-                <a className="drop-item" href="https://bd.linkedin.com/in/mahbubsprint" target="_blank" rel="noreferrer">
+                <a className="drop-item" href={social.linkedin} target="_blank" rel="noreferrer">
                   <i className="fa fa-linkedin" /> LinkedIn
                 </a>
                 <hr className="drop-divider" />
-                <button className="drop-item drop-toggle" onClick={() => setDarkMode((d) => !d)}>
+                <button className="drop-item drop-toggle" onClick={toggleTheme}>
                   <i className={`fa fa-${darkMode ? "sun-o" : "moon-o"}`} />
                   {darkMode ? "Light Mode" : "Dark Mode"}
                   <span className={`toggle-pill${darkMode ? "" : " on"}`} />

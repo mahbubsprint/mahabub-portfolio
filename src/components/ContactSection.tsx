@@ -1,4 +1,7 @@
 import MacWindow from "./MacWindow";
+import content from "@/data/content.json";
+
+const { site } = content;
 
 export default function ContactSection() {
   return (
@@ -8,12 +11,12 @@ export default function ContactSection() {
       <MacWindow title="mahabub@portfolio — contact" cmd="Contact Details Loaded.">
         <div className="card contact-card">
           <div className="address">
-            Mahabub Mollah<br />
-            Kollyanpur, Dhaka, Bangladesh.<br />
-            mahbubsprint310@gmail.com<br />
-            01781227493
+            {site.name}<br />
+            {site.location}.<br />
+            {site.email}<br />
+            {site.phone}
           </div>
-          <a href="/mahbub.docx" className="nav-cta">
+          <a href={site.resumeFile} className="nav-cta">
             Download CV <i className="fa fa-external-link" />
           </a>
         </div>
