@@ -254,6 +254,47 @@ h2 { font-size: 32px; font-weight: 700; margin-bottom: 30px; }
 .project-data { padding: 16px 18px; }
 .project-data h4 { font-size: 14px; font-weight: 600; }
 .project-data p { font-size: 12px; color: var(--accent-2); margin-top: 4px; }
+/* Mac window */
+.mac-window {
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  overflow: hidden;
+  background: var(--surface);
+}
+.mac-titlebar {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 12px 18px;
+  background: var(--surface-hover);
+  border-bottom: 1px solid var(--border);
+}
+.mac-dot {
+  width: 13px; height: 13px;
+  border-radius: 50%; flex-shrink: 0;
+}
+.mac-red    { background: #ff5f57; }
+.mac-yellow { background: #ffbd2e; }
+.mac-green  { background: #28c840; }
+.mac-title {
+  margin-left: 8px;
+  font-size: 12px;
+  color: var(--text-faint);
+}
+.mac-body { padding: 24px; }
+.mac-footer {
+  padding: 12px 20px;
+  background: var(--surface-hover);
+  border-top: 1px solid var(--border);
+  font-size: 13px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.mac-prompt { color: var(--green); font-weight: 700; }
+.mac-cmd { color: var(--text-muted); }
+.mac-str { color: #22d3ee; }
+
 /* Skills bento grid */
 .skills-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: var(--gap); }
 .skill-cat-card { padding: 26px; position: relative; overflow: hidden; }
