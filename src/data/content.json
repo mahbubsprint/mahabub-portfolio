@@ -65,16 +65,16 @@
     ],
     "testimonials": [
       {
-        "initial": "A",
-        "name": "Colleague Name",
-        "jobTitle": "Title @ Company",
-        "text": "Add a testimonial from a colleague or manager here. Great testimonials speak to your specific impact and working style."
+        "initial": "M",
+        "name": "MD Badrul Hasan Tushar",
+        "jobTitle": "Software Architect | Engineering Manager | AWS, Docker, Microservices, Kubernetes",
+        "text": "I worked with him for over three years, and he consistently operates far beyond the level of a typical Senior Engineer. Mahbub doesn't just write great code. He takes complete ownership of his projects from start to finish. He understands the big picture and knows exactly how to deliver software that creates the most value for the business. Give him a complex challenge, and he will figure it out. He handles technical debt and tight deadlines with incredible agility. No matter how high the pressure gets, Mahbub stays completely calm and focused. He also has a deep growth mindset. He is always learning, and his drive naturally makes everyone around him better. Mahbub is the engineer you can trust with your hardest problems. Any team would be incredibly lucky to have him, and he has my absolute highest recommendation."
       },
       {
-        "initial": "B",
-        "name": "Colleague Name",
-        "jobTitle": "Title @ Company",
-        "text": "Add a testimonial from a colleague or manager here. Great testimonials speak to your specific impact and working style."
+        "initial": "F",
+        "name": "Md. Fazla Rabbi Opu",
+        "jobTitle": "Agile Leader | Solution Architect | Technical Project Manager",
+        "text": "I had the opportunity to work with Mahabub as a Project Manager for the past three years, and throughout this time I found him to be extremely dedicated and reliable. One of his standout qualities is his strong ownership mindset—every task assigned to him was taken with full responsibility and delivered with the right outcomes. Mahabub is also a quick learner and highly adaptable. Whenever project needs required a change in technology or approach, he not only switched tech stacks smoothly but also developed strong expertise in them in a short time. I wish him all the best and strongly recommend him for his adaptability, dedication, and commitment to excellence."
       }
     ]
   },
