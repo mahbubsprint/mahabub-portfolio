@@ -1,64 +1,66 @@
 {
   "site": {
     "name": "Mahabub Mollah",
-    "title": "Mahabub Mollah — Full Stack Developer",
-    "description": "Portfolio of Mahabub Mollah, Full Stack Developer specializing in PHP, Laravel, React.js, Node.js and MongoDB.",
+    "title": "Mahabub Mollah — Principal Software Engineer",
+    "description": "Portfolio of Mahabub Mollah, Principal Software Engineer with 8+ years of experience in cloud-native applications, microservices, and full-stack development.",
     "tagline": "Architecting",
-    "role": "Full Stack Developer | 8+ Years",
-    "location": "Kollyanpur, Dhaka, Bangladesh",
+    "role": "Principal Software Engineer | 8+ Years",
+    "location": "Dhaka, Bangladesh",
     "email": "mahbubsprint310@gmail.com",
     "phone": "01781227493",
-    "resumeFile": "/mahbub.docx",
+    "resumeFile": "/Mahabub_Mollah_CV.pdf",
     "profileImage": "/images/profile/1.jpg"
   },
   "social": {
-    "linkedin": "https://bd.linkedin.com/in/mahbubsprint",
+    "linkedin": "https://linkedin.com/in/mahbubsprint/",
     "github": "https://github.com/mahbubsprint",
     "facebook": "https://www.facebook.com/mahbubsprint",
     "skype": "skype:extreme_mahbub?userinfo"
   },
   "typewriterPhrases": [
-    "Scalable Web Apps",
+    "Cloud-Native Applications",
+    "Microservices Architecture",
     "Full Stack Solutions",
-    "Modern REST APIs",
-    "Robust Backend Systems",
-    "React Experiences",
-    "High-Performance Apps"
+    "Scalable Web Apps",
+    "AI-Powered Workflows",
+    "High-Performance APIs"
   ],
   "about": {
-    "bio": "As a Full-stack developer, I always allow myself to attain technical skills as well as to cope up with new technologies. I am highly skilled with PHP, Laravel, CakePHP, JavaScript, React.js, Node.js, Next.js and MongoDB. I have 8+ years of experience developing different web applications and I am eager to learn new technologies.",
+    "bio": "I am a Principal Software Engineer with 8+ years of experience in designing and implementing cloud-native applications. Skilled in various programming languages and frameworks, I have a proven track record of leading projects that enhance system performance and streamline workflows. My passion for mentoring engineers and delivering impactful solutions drives my commitment to excellence in software development.",
     "techStack": [
-      { "name": "PHP", "color": "#e44d26" },
-      { "name": "Laravel", "color": "#ff2d20" },
-      { "name": "React.js", "color": "#61dafb" },
-      { "name": "Node.js", "color": "#68a063" },
       { "name": "JavaScript", "color": "#f7df1e" },
-      { "name": "Next.js", "color": "#555" }
+      { "name": "TypeScript", "color": "#3178c6" },
+      { "name": "PHP", "color": "#e44d26" },
+      { "name": "Node.js", "color": "#68a063" },
+      { "name": "React.js", "color": "#61dafb" },
+      { "name": "Next.js", "color": "#555" },
+      { "name": "Laravel", "color": "#ff2d20" },
+      { "name": "NestJS", "color": "#ea2845" }
     ],
     "philosophy": [
       {
-        "icon": "🖥️",
+        "icon": "🏗️",
         "cls": "icon-teal",
-        "title": "User-Centric Engineering",
-        "desc": "I build applications that feel as good as they look — balancing architectural discipline with focus on user experience and accessibility."
+        "title": "Cloud-Native Architecture",
+        "desc": "I design and implement cloud-native applications on AWS and Azure, using microservices, API Gateway, and Saga patterns to enable independent scaling and resilient deployments."
       },
       {
-        "icon": "⚙️",
+        "icon": "⚡",
         "cls": "icon-purple",
-        "title": "Scalable Architecture",
-        "desc": "My backend philosophy is simple: use the best tool for the job. I architect high-concurrency services using Laravel, Node.js, and RESTful APIs."
+        "title": "Performance Engineering",
+        "desc": "I reduce response times by 40%+ through query optimization, caching strategies, cursor-based pagination, and efficient data pipelines in PostgreSQL and MySQL."
       },
       {
-        "icon": "🗄️",
+        "icon": "🔒",
         "cls": "icon-green",
-        "title": "Robust Infrastructure",
-        "desc": "Great software needs a solid foundation. From relational databases to MongoDB, I design data ecosystems that scale with the product."
+        "title": "Security & Reliability",
+        "desc": "I apply IAM governance, secrets management, and encryption standards. CI/CD pipelines with Docker and Kubernetes reduce deployment effort by 70% and improve reliability."
       },
       {
         "icon": "👥",
         "cls": "icon-amber",
-        "title": "Collaboration & Growth",
-        "desc": "Engineering is a team sport. I value clear communication, thorough code reviews, and mentoring — building better engineers alongside better products."
+        "title": "Mentorship & Leadership",
+        "desc": "Engineering is a team sport. I lead cross-functional teams through sprint planning, code reviews, and mentoring — recognized as Best Performer of the Year at BJIT."
       }
     ],
     "testimonials": [
@@ -79,74 +81,114 @@
   "experience": {
     "jobs": [
       {
+        "title": "Principal Software Engineer",
+        "org": "BJIT (Bangladesh Japan Information Technology Limited)",
+        "location": "Dhaka, Bangladesh",
+        "period": "May 2020 - Present",
+        "desc": "Led cross-functional development teams through sprint planning, task prioritization, code reviews, and on-time delivery. Designed and scaled microservices/APIs with API Gateway, Circuit Breaker, and Saga patterns. Implemented CI/CD pipelines, Docker/Kubernetes orchestration, and AWS cloud infrastructure. Applied IAM governance, secrets management, and encryption standards. Integrated AI-driven tools (GPT, Claude, Cursor AI) to boost productivity by 25%."
+      },
+      {
         "title": "Software Engineer",
-        "org": "BJIT Limited",
+        "org": "AntoPolis",
         "location": "Dhaka, Bangladesh",
-        "period": "2020 - Till Now",
-        "desc": "Requirement gathering • Requirement Analysis • System Impact Analysis • System Design • Change Request Management • Bug Analysis • Bug Reproduction • Verification • Coding • Testing • Estimations."
+        "period": "January 2018 - March 2020",
+        "desc": "Developed and maintained full-stack features using Node.js, React, Next.js, PHP/Laravel, applying design patterns (Factory, Observer, Strategy) to deliver clean, modular, and testable code. Optimized PostgreSQL/MySQL queries and schemas for performance and scalability. Ensured reliability through code reviews, unit/integration testing, and CI/CD on AWS."
       },
       {
-        "title": "Associate Software Engineer",
-        "org": "Antopolish",
+        "title": "Junior Software Engineer",
+        "org": "Future Track IT",
         "location": "Dhaka, Bangladesh",
-        "period": "2018 - 2020",
-        "desc": "Developed Web Application • Requirement gathering • Requirement analysis • Database design • Bug Analysis • Bug Reproduction • Verification • Coding • Testing • Estimations."
-      },
-      {
-        "title": "Web Developer",
-        "org": "Future Track It",
-        "location": "Dhaka, Bangladesh",
-        "period": "2016 - 2017",
-        "desc": "Developed Web Application • Requirement gathering • Requirement analysis • Database design • Bug Analysis • Bug Reproduction • Verification • Coding • Testing • Estimations."
+        "period": "November 2016 - December 2017",
+        "desc": "Designed and built scalable web applications using PHP, Laravel, MySQL, JavaScript, jQuery, and CSS, delivering maintainable features through structured development, testing, and debugging. Collaborated with cross-functional teams to align technical execution with business goals."
       }
     ],
     "education": [
       {
-        "title": "Dhaka International University",
-        "org": "B.Sc in Computer Science and Engineering",
-        "desc": "CGPA: 3.60 • Dhaka, Bangladesh"
+        "title": "Dhaka International University (DIU)",
+        "org": "B.S.E in Computer Science and Engineering",
+        "desc": "CGPA: 3.60/4.00 • August 2011 – December 2017 • Dhaka, Bangladesh"
+      }
+    ],
+    "certifications": [
+      {
+        "title": "Node.js Developer Course",
+        "org": "The Complete Node.js Developer Course (3rd Edition)"
       },
       {
-        "title": "Saheed Police Smrity College",
-        "org": "Higher Secondary Studies in Science",
-        "desc": "H.S.C • Science • Dhaka, Bangladesh"
+        "title": "Web Application Development",
+        "org": "Web Application Development course offered by BASIS"
+      }
+    ],
+    "awards": [
+      {
+        "title": "Best Performer of the Year",
+        "desc": "Recognized for outstanding contributions, technical excellence, and impactful delivery at BJIT."
       },
       {
-        "title": "Malkhanagar Highschool & College",
-        "org": "Secondary School Certificate",
-        "desc": "S.S.C • Science • Munshigonj, Dhaka, Bangladesh"
+        "title": "Mentorship Role",
+        "desc": "Appointed as a mentor for web development, guiding a group of 30 students and professionals."
       }
     ]
   },
   "projects": [
     {
       "img": "/images/portfolio/Biyeshamlao.png",
-      "title": "Wedding Management Application",
-      "stack": "Laravel, JQuery, Bootstrap, CSS",
-      "href": "#"
-    },
-    {
-      "img": "/images/portfolio/PeopleScape.png",
-      "title": "Peoplescape for HR",
-      "stack": "Laravel, JQuery, CSS",
-      "href": "#"
-    },
-    {
-      "img": "/images/portfolio/FxSuccessBD.png",
-      "title": "Forex Trading Site",
-      "stack": "Laravel, JQuery, Bootstrap3, CSS",
+      "title": "E-parts – Catalog Management Platform",
+      "stack": "React, TypeScript, MUI, TanStack Query, SignalR, .NET 10, Azure Functions, Fabric SQL, Dataverse",
+      "period": "Apr 2026 - Present",
+      "highlights": [
+        "Led full-stack delivery of a scalable mill data platform covering sync, BOM management, and real-time editing",
+        "Built React/TypeScript UI with TanStack Query, lazy loading, and SignalR locks — ~60–70% fewer API calls, ~80–90% faster large-table render",
+        "Built Azure Functions (.NET 10) with Durable Functions for Fabric → Dataverse sync — ~40–60% faster large-mill sync"
+      ],
       "href": "#"
     },
     {
       "img": "/images/portfolio/Willvote.png",
-      "title": "Mobile User Based Voting App",
-      "stack": "Laravel, React.js",
+      "title": "Shin Sagantosu Fan Token – Store Discovery Platform",
+      "stack": "React, NestJS, TypeScript, Redux, React Query, Tailwind CSS, Google Maps API, AWS (S3, Amplify, DynamoDB, RDS)",
+      "period": "Apr 2025 - Feb 2026",
+      "highlights": [
+        "Led full-stack development delivering a scalable platform for 500+ stores",
+        "Implemented Google Maps integration with custom clustering and resolved race condition bugs",
+        "Reduced API calls by 60% via debounced search, auto-complete, and caching"
+      ],
+      "href": "#"
+    },
+    {
+      "img": "/images/portfolio/PeopleScape.png",
+      "title": "Mitsubishi Logistic – Warehouse Monitoring",
+      "stack": "Node.js, Express, React, Redux, Docker, API Gateway, Kafka, RabbitMQ, Microservices, NestJS",
+      "period": "Nov 2023 - Feb 2025",
+      "highlights": [
+        "Built microservices backend (NestJS) processing 10M+ records/day, cutting batch time from 3h → 40m",
+        "Integrated Kafka/RabbitMQ for async analytics, enabling near real-time productivity insights",
+        "Developed React/Redux dashboards for KPIs, reducing manual reporting by 70%"
+      ],
       "href": "#"
     },
     {
       "img": "/images/portfolio/Bms.png",
-      "title": "Bimatric Solution",
-      "stack": "CakePHP, JQuery, Bootstrap3, CSS",
+      "title": "A-B Will Vote – Online Voting & Social Platform",
+      "stack": "Node.js, Express, React, React Hooks, Redux, AWS (EC2, S3), MySQL",
+      "period": "Feb 2022 - Apr 2023",
+      "highlights": [
+        "Built Node.js/Express backend APIs to power voting, content management, and social features",
+        "Engineered buffered video streaming with back-pressure handling for large video files",
+        "Deployed a scalable platform combining online voting with social media functionality"
+      ],
+      "href": "#"
+    },
+    {
+      "img": "/images/portfolio/FxSuccessBD.png",
+      "title": "BMS – Biomedical Management System",
+      "stack": "CakePHP 5.x, PHP 8.1+, MySQL, jQuery, Bootstrap, D3.js, DataTables, FullCalendar, PHPUnit",
+      "period": "Aug 2020 - Feb 2022",
+      "highlights": [
+        "Developed CakePHP 5.x system to manage material preservation, manufacturing workflows, and multi-facility operation",
+        "Implemented RBAC with granular permissions, QR/barcode tracking, PDF reporting, and multi-language support (English/Japanese)",
+        "Migrated from CakePHP 4.x → 5.x, ensuring PHP 8.1+ compatibility"
+      ],
       "href": "#"
     }
   ],
@@ -156,11 +198,11 @@
       "ghost": "</>",
       "label": "Languages",
       "skills": [
-        { "name": "PHP", "color": "#e44d26" },
         { "name": "JavaScript", "color": "#f7df1e" },
-        { "name": "HTML", "color": "#e34c26" },
-        { "name": "CSS", "color": "#1572b6" },
         { "name": "TypeScript", "color": "#3178c6" },
+        { "name": "PHP", "color": "#e44d26" },
+        { "name": "Python", "color": "#3572A5" },
+        { "name": "Go", "color": "#00ADD8" },
         { "name": "SQL", "color": "#4479a1" }
       ]
     },
@@ -171,9 +213,9 @@
       "skills": [
         { "name": "React.js", "color": "#61dafb" },
         { "name": "Next.js", "color": "#555" },
-        { "name": "jQuery", "color": "#0769ad" },
-        { "name": "Bootstrap", "color": "#7952b3" },
-        { "name": "Ajax", "color": "#0076c6" }
+        { "name": "Redux", "color": "#764abc" },
+        { "name": "TanStack Query", "color": "#ff4154" },
+        { "name": "Tailwind CSS", "color": "#38bdf8" }
       ]
     },
     {
@@ -181,11 +223,12 @@
       "ghost": "⚙",
       "label": "Backend",
       "skills": [
+        { "name": "Node.js", "color": "#68a063" },
+        { "name": "NestJS", "color": "#ea2845" },
+        { "name": "Express.js", "color": "#68a063" },
         { "name": "Laravel", "color": "#ff2d20" },
         { "name": "CakePHP", "color": "#e84393" },
-        { "name": "Node.js", "color": "#68a063" },
-        { "name": "Express.js", "color": "#68a063" },
-        { "name": "Magento 2x", "color": "#f47621" }
+        { "name": ".NET 10", "color": "#512bd4" }
       ]
     },
     {
@@ -193,83 +236,88 @@
       "ghost": "◫",
       "label": "Databases",
       "skills": [
-        { "name": "MongoDB", "color": "#4db33d" },
+        { "name": "PostgreSQL", "color": "#336791" },
         { "name": "MySQL", "color": "#4479a1" },
-        { "name": "PostgreSQL", "color": "#336791" }
-      ]
-    },
-    {
-      "icon": "🔧",
-      "ghost": "⚒",
-      "label": "Tools & DevOps",
-      "skills": [
-        { "name": "Git", "color": "#f05032" },
-        { "name": "GitHub", "color": "#555" },
-        { "name": "VS Code", "color": "#007acc" },
-        { "name": "Postman", "color": "#ff6c37" },
-        { "name": "npm", "color": "#cb3837" }
+        { "name": "MongoDB", "color": "#4db33d" },
+        { "name": "DynamoDB", "color": "#ff9900" },
+        { "name": "Elasticsearch", "color": "#00bfb3" }
       ]
     },
     {
       "icon": "☁️",
       "ghost": "☁",
-      "label": "Cloud & Hosting",
+      "label": "Cloud & DevOps",
       "skills": [
-        { "name": "GitHub Pages", "color": "#333" },
-        { "name": "Vercel", "color": "#555" },
         { "name": "AWS", "color": "#ff9900" },
-        { "name": "cPanel", "color": "#ff6c37" }
+        { "name": "Azure", "color": "#0078d4" },
+        { "name": "Docker", "color": "#2496ed" },
+        { "name": "Kubernetes", "color": "#326ce5" },
+        { "name": "Kafka", "color": "#231f20" },
+        { "name": "GitHub Actions", "color": "#2088ff" }
+      ]
+    },
+    {
+      "icon": "🔧",
+      "ghost": "⚒",
+      "label": "Testing & AI Tools",
+      "skills": [
+        { "name": "Jest", "color": "#c21325" },
+        { "name": "Cypress", "color": "#17202c" },
+        { "name": "Postman", "color": "#ff6c37" },
+        { "name": "PHPUnit", "color": "#366488" },
+        { "name": "Claude AI", "color": "#d97706" },
+        { "name": "Cursor AI", "color": "#555" }
       ]
     }
   ],
   "impact": {
-    "subtitle": "Add a short line here about the measurable impact of your engineering work.",
+    "subtitle": "Measurable results across performance, infrastructure, and team productivity.",
     "stats": [
       {
-        "label": "Metric One",
-        "value": "XX",
-        "unit": "+",
-        "icon": "👥",
-        "arrow": false,
-        "desc": "Describe this stat here."
-      },
-      {
-        "label": "Metric Two",
-        "value": "XX",
+        "label": "Response Time Reduced",
+        "value": "40",
         "unit": "%",
         "icon": "⚡",
         "arrow": true,
-        "desc": "Describe this stat here."
+        "desc": "Via query optimization, caching strategies, and cursor-based pagination in PostgreSQL/MySQL."
       },
       {
-        "label": "Metric Three",
-        "value": "XX",
-        "unit": "+",
-        "icon": "🌍",
-        "arrow": false,
-        "desc": "Describe this stat here."
-      },
-      {
-        "label": "Metric Four",
-        "value": "XX",
+        "label": "Deployment Effort Cut",
+        "value": "70",
         "unit": "%",
-        "icon": "🛡️",
+        "icon": "🚀",
         "arrow": true,
-        "desc": "Describe this stat here."
+        "desc": "CI/CD pipelines with Docker and Kubernetes reduced manual deployment effort significantly."
+      },
+      {
+        "label": "Latency Reduced",
+        "value": "60",
+        "unit": "%",
+        "icon": "📡",
+        "arrow": true,
+        "desc": "Kafka pipelines with push-pull model, scaling throughput to millions of events per second."
+      },
+      {
+        "label": "Developer Productivity",
+        "value": "25",
+        "unit": "%",
+        "icon": "🤖",
+        "arrow": true,
+        "desc": "Integrated AI-driven tools (GPT, Claude, Cursor AI) into engineering workflows."
       }
     ]
   },
   "home": {
     "coreStack": [
-      { "name": "PHP", "color": "#e44d26" },
-      { "name": "Laravel", "color": "#ff2d20" },
-      { "name": "CakePHP", "color": "#e84393" },
       { "name": "JavaScript", "color": "#f7df1e" },
-      { "name": "React.js", "color": "#61dafb" },
+      { "name": "TypeScript", "color": "#3178c6" },
       { "name": "Node.js", "color": "#68a063" },
+      { "name": "NestJS", "color": "#ea2845" },
+      { "name": "React.js", "color": "#61dafb" },
       { "name": "Next.js", "color": "#555" },
-      { "name": "Express.js", "color": "#68a063" },
-      { "name": "MongoDB", "color": "#4db33d" }
+      { "name": "Laravel", "color": "#ff2d20" },
+      { "name": "Docker", "color": "#2496ed" },
+      { "name": "AWS", "color": "#ff9900" }
     ]
   }
 }

@@ -2,8 +2,8 @@ import type { Metadata } from "next";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "Mahabub Mollah — Full Stack Developer",
-  description: "Portfolio of Mahabub Mollah, Full Stack Developer specializing in PHP, Laravel, React.js, Node.js and MongoDB.",
+  title: "Mahabub Mollah — Principal Software Engineer",
+  description: "Portfolio of Mahabub Mollah, Principal Software Engineer with 8+ years building cloud-native applications, microservices, and full-stack systems on AWS and Azure.",
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {

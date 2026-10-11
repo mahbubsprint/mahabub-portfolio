@@ -1,4 +1,3 @@
-import Image from "next/image";
 import MacWindow from "./MacWindow";
 import content from "@/data/content.json";
 
@@ -12,13 +11,20 @@ export default function ProjectsSection() {
       <MacWindow title="mahabub@portfolio — projects" cmd="Projects Initialized.">
         <div className="project-grid">
           {projects.map((p) => (
-            <a key={p.title} href={p.href} className="card project-card">
-              <Image src={p.img} alt={p.title} width={400} height={240} style={{ width: "100%", height: "auto" }} />
-              <div className="project-data">
+            <div key={p.title} className="card project-card">
+              <div className="project-header">
                 <h4>{p.title}</h4>
-                <p>{p.stack}</p>
+                <span className="period-badge">{p.period}</span>
               </div>
-            </a>
+              <ul className="project-highlights">
+                {p.highlights.map((h, i) => (
+                  <li key={i}>{h}</li>
+                ))}
+              </ul>
+              <div className="project-footer">
+                <p className="project-stack">{p.stack}</p>
+              </div>
+            </div>
           ))}
         </div>
       </MacWindow>
