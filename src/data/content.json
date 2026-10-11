@@ -26,7 +26,7 @@
     "High-Performance APIs"
   ],
   "about": {
-    "bio": "I am a Principal Software Engineer with 8+ years of experience in designing and implementing cloud-native applications. Skilled in various programming languages and frameworks, I have a proven track record of leading projects that enhance system performance and streamline workflows. My passion for mentoring engineers and delivering impactful solutions drives my commitment to excellence in software development.",
+    "bio": "Principal Software Engineer with 8+ years designing, architecting, and scaling full-stack systems that solve real business problems. I specialize in building high-performance microservices, mentoring high-performing teams, and delivering production-ready solutions that impact millions of users. I work across the full stack — from designing REST APIs and microservices with Node.js/NestJS to building scalable frontends with React and Next.js. Passionate about clean code, design patterns, AI integration, and building systems that don't just work, but scale.",
     "techStack": [
       { "name": "TypeScript", "color": "#3178c6" },
       { "name": "Node.js", "color": "#68a063" },
@@ -183,6 +183,7 @@
       "title": "E-parts – Catalog Management Platform",
       "stack": "React · TypeScript · MUI · TanStack Query · SignalR · .NET 10 · Azure Functions · Fabric SQL · Dataverse · Azure Blob · Azure DevOps",
       "period": "Apr 2026 – Present",
+      "tags": ["In Progress", "Full-Stack", "Frontend"],
       "bullets": [
         "Led full-stack delivery of a scalable mill data platform covering sync, BOM management, and real-time collaborative editing.",
         "Built React/TypeScript UI with TanStack Query and lazy BOM loading — reduced API calls by ~60–70% and improved large-table render speed by ~80–90%.",
@@ -196,6 +197,7 @@
       "title": "Shin Sagantosu Fan Token – Store Discovery Platform",
       "stack": "React · NestJS · TypeScript · Redux · React Query · Tailwind CSS · Google Maps API · AWS S3 · Amplify · DynamoDB · RDS",
       "period": "Apr 2025 – Feb 2026",
+      "tags": ["Full-Stack", "Frontend"],
       "bullets": [
         "Led full-stack development from design to production deployment, delivering a scalable platform serving 500+ stores.",
         "Architected React/TypeScript frontend with Redux and React Query, ensuring state persistence and shareable filter URLs.",
@@ -210,6 +212,7 @@
       "title": "Mitsubishi Logistic – Warehouse Monitoring",
       "stack": "NestJS · Node.js · Express · React · Redux · Docker · API Gateway · Kafka · RabbitMQ · Microservices",
       "period": "Nov 2023 – Feb 2025",
+      "tags": ["Full-Stack", "Backend", "Microservices"],
       "bullets": [
         "Built microservices backend (NestJS) processing 10M+ records/day, cutting batch processing time from 3 hours → 40 minutes.",
         "Integrated Kafka and RabbitMQ for async analytics pipelines, enabling near real-time productivity insights across warehouses.",
@@ -224,6 +227,7 @@
       "title": "A-B Will Vote – Online Voting & Social Platform",
       "stack": "Laravel · React · React Hooks · Redux · AWS EC2 · AWS S3 · MySQL · PHPUnit",
       "period": "Mar 2020 – Sep 2020",
+      "tags": ["Full-Stack", "Backend"],
       "bullets": [
         "Enhanced backend APIs with Laravel to support voting, content management, and social features at scale.",
         "Built React frontend with Hooks and Redux for scalable, predictable state management.",
@@ -237,6 +241,7 @@
       "title": "BMS – Biomedical Management System",
       "stack": "CakePHP 5.x · PHP 8.1+ · MySQL · jQuery · Bootstrap · D3.js · DataTables · FullCalendar · PHPUnit · i18n",
       "period": "Jan 2022 – Mar 2023",
+      "tags": ["Full-Stack", "Backend"],
       "bullets": [
         "Developed a CakePHP 5.x system to manage material preservation, manufacturing workflows, and multi-facility operations.",
         "Built modular backend APIs for approval workflows, material tracking, room reservations, and process step management.",
@@ -251,6 +256,7 @@
       "title": "Shimashare – Multi-Vendor E-Commerce",
       "stack": "Magento 2.4 · WEBKUL · PHP · MySQL",
       "period": "Aug 2020 – Dec 2020",
+      "tags": ["Full-Stack", "Backend"],
       "bullets": [
         "Built a Japan-based multi-vendor e-commerce platform using Magento 2.4.",
         "Integrated WEBKUL multi-vendor extension to support independent vendor stores, product listings, and order management.",

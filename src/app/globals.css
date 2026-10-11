@@ -262,6 +262,13 @@ h2 { font-size: 32px; font-weight: 700; margin-bottom: 30px; }
 .project-highlights li { font-size: 13px; color: var(--text-muted); line-height: 1.6; }
 .project-footer { margin-top: auto; padding-top: 10px; border-top: 1px solid var(--border); }
 .project-stack { font-size: 11px; color: var(--accent-2); line-height: 1.5; }
+.filter-bar { display: flex; flex-wrap: wrap; gap: 8px; margin-bottom: 20px; }
+.filter-btn { font-family: 'JetBrains Mono', monospace; font-size: 12px; font-weight: 500; padding: 6px 16px; border-radius: 20px; border: 1px solid var(--border); background: var(--surface); color: var(--text-muted); cursor: pointer; transition: all 0.2s ease; }
+.filter-btn:hover { border-color: var(--accent); color: var(--accent); }
+.filter-btn--active { background: var(--accent); border-color: var(--accent); color: #fff; }
+.filter-empty { color: var(--text-muted); font-size: 14px; padding: 24px 0; text-align: center; }
+.tag-row { display: flex; flex-wrap: wrap; gap: 6px; }
+.project-tag { font-size: 10px; font-weight: 600; padding: 2px 8px; border-radius: 12px; border: 1px solid var(--border); color: var(--text-faint); letter-spacing: 0.5px; }
 .period-badge { font-size: 11px; background: var(--accent-soft); color: var(--accent); padding: 2px 8px; border-radius: 20px; white-space: nowrap; flex-shrink: 0; }
 .cert-grid { display: grid; grid-template-columns: repeat(2,1fr); gap: var(--gap); }
 .cert-card { padding: 20px 24px; display: flex; flex-direction: column; gap: 6px; }

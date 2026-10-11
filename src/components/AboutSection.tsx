@@ -39,12 +39,12 @@ export default function AboutSection() {
           {about.testimonials.map((t, i) => (
             <div key={i} className="card testimonial-card">
               <div className="quote-mark">❝</div>
-              <p className="testimonial-text placeholder-text">{t.text}</p>
+              <p className="testimonial-text">{t.text}</p>
               <div className="testimonial-author">
                 <div className="author-avatar">{t.initial}</div>
                 <div>
-                  <div className="author-name placeholder-text">{t.name}</div>
-                  <div className="author-title placeholder-text">{t.jobTitle}</div>
+                  <div className="author-name">{t.name}</div>
+                  <div className="author-title">{t.jobTitle}</div>
                 </div>
               </div>
             </div>
