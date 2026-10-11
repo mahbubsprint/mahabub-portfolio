@@ -82,39 +82,66 @@
     "jobs": [
       {
         "title": "Principal Software Engineer",
-        "org": "BJIT (Bangladesh Japan Information Technology Limited)",
+        "org": "BJIT (Bangladesh Japan IT Limited)",
         "location": "Dhaka, Bangladesh",
-        "period": "May 2020 – Present",
+        "period": "Jun 2025 – Present",
         "bullets": [
-          "Led cross-functional development teams through sprint planning, task prioritization, code reviews, and on-time delivery of backend and frontend features.",
-          "Managed project execution end-to-end — requirement breakdown, risk handling, stakeholder coordination, CI/CD releases, and mentoring developers to improve team productivity and code quality.",
-          "Designed and scaled microservices and APIs with API Gateway, Circuit Breaker, and Saga patterns enabling independent scaling and cutting deployment time by 50%.",
-          "Implemented CI/CD pipelines with Docker and Kubernetes, reducing manual deployment effort by 70%.",
-          "Applied IAM governance, secrets management, and encryption standards, reducing security vulnerabilities by 35%.",
-          "Integrated AI-driven tools (GPT, Claude, Cursor AI) into engineering workflows, boosting developer productivity by 25%.",
-          "Mentored engineers and guided modernization efforts — monolith decomposition, API redesign, and cloud migration.",
-          "Tech: AWS (EC2, S3, RDS, AppSync), Azure, Kafka, RabbitMQ, MySQL, PostgreSQL, NestJS, Laravel, Docker, Kubernetes."
+          "Architected cloud-native microservices platform handling 500K+ daily transactions with 99.9% uptime, reducing system latency by 45%.",
+          "Led technical vision and standards for design patterns, microservice architecture, and AI integration — mentored 5+ engineers, 2 promoted to Senior roles.",
+          "Containerized legacy monolith into Docker/Kubernetes architecture, enabling 10x faster release cycles (2-week sprints → continuous deployment).",
+          "Implemented AI-driven engineering practices (OpenAI GPT, Claude APIs, Cursor AI) — reduced code review time by 40%.",
+          "Established CI/CD pipelines and DevOps best practices, reducing deployment failures from 15% to 2%.",
+          "Delivered production systems improving performance by 50%, reducing infrastructure costs by 30%, and achieving 99.9% SLA."
+        ]
+      },
+      {
+        "title": "Senior Software Engineer",
+        "org": "BJIT (Bangladesh Japan IT Limited)",
+        "location": "Dhaka, Bangladesh",
+        "period": "Jul 2022 – Jun 2025",
+        "bullets": [
+          "Led backend architecture redesign: migrated monolith to microservices with Node.js/Express, handling 2M+ monthly API requests at 99% success rate.",
+          "Designed 8+ production microservices following API Gateway, Circuit Breaker, and Saga patterns — reduced system coupling by 60%.",
+          "Built React/TypeScript frontend with Atomic Design and Custom Hooks — reduced bundle size by 35%, improved page load from 3s to 1.2s.",
+          "Implemented CI/CD pipelines (GitHub Actions, Docker, AWS EC2) — automated deployments, enabled 5+ daily releases.",
+          "Mentored 8 junior engineers through code reviews and pair programming — 3 promoted to mid-level, 2 led independent projects.",
+          "Optimized PostgreSQL queries and schemas — improved query performance by 50%, reduced database costs by 25%."
         ]
       },
       {
         "title": "Software Engineer",
-        "org": "AntoPolis",
+        "org": "BJIT (Bangladesh Japan IT Limited)",
         "location": "Dhaka, Bangladesh",
-        "period": "January 2018 – March 2020",
+        "period": "May 2020 – Jul 2022",
         "bullets": [
-          "Developed and maintained full-stack features using Node.js, React, Next.js, and PHP/Laravel, applying design patterns (Factory, Observer, Strategy) for clean, modular, testable code.",
-          "Optimized PostgreSQL/MySQL queries and schemas for performance and scalability.",
-          "Ensured reliability through code reviews, unit/integration testing, CI/CD, and production issue resolution on AWS (EC2, S3)."
+          "Developed 15+ backend APIs using Node.js/Express and frontend components with React, delivering features on-time to production.",
+          "Built modular, testable code following SOLID principles and design patterns (Factory, Observer, Strategy) — improved code reusability by 40%.",
+          "Optimized critical PostgreSQL/MySQL queries — reduced query execution time by 55% and improved overall application response time.",
+          "Implemented unit and integration testing (Jest, Mocha) — achieved 75% code coverage, reduced production bugs by 45%.",
+          "Led troubleshooting and debugging of production issues — maintained 99.5% system uptime."
         ]
       },
       {
-        "title": "Junior Software Engineer",
-        "org": "Future Track IT",
+        "title": "Software Engineer",
+        "org": "Weaver Innovations",
         "location": "Dhaka, Bangladesh",
-        "period": "November 2016 – December 2017",
+        "period": "Jan 2019 – Apr 2020",
         "bullets": [
-          "Designed and built scalable web applications using PHP, Laravel, MySQL, JavaScript, jQuery, and CSS, delivering maintainable features through structured development, testing, and debugging.",
-          "Collaborated with cross-functional teams to align technical execution with business goals and ensure reliable, production-ready delivery."
+          "Developed and maintained full-stack features using Node.js, React, Next.js, and PHP/Laravel with design patterns for clean, modular, testable code.",
+          "Optimized PostgreSQL/MySQL queries and schemas for performance and scalability.",
+          "Built two production web apps: Biyeshamlao (multi-vendor wedding planning platform) and PeopleScape (job board and CV management system).",
+          "Participated in code reviews, unit/integration testing, and CI/CD to ensure production-ready reliability."
+        ]
+      },
+      {
+        "title": "Software Engineer",
+        "org": "Future TrackIt",
+        "location": "Dhaka, Bangladesh",
+        "period": "Jan 2018 – Dec 2018",
+        "bullets": [
+          "Planned, architected, and developed web applications collaborating with cross-functional teams.",
+          "Built FxsuccessBd, a forex trading platform with real-time features: signal creation, social login, Ajax pagination, broker comparison, and role-based admin panel.",
+          "Delivered maintainable features using PHP/Laravel, Ajax, JavaScript, and jQuery."
         ]
       }
     ],
@@ -122,7 +149,12 @@
       {
         "title": "Dhaka International University (DIU)",
         "org": "B.S.E in Computer Science and Engineering",
-        "desc": "CGPA: 3.60/4.00 • August 2011 – December 2017 • Dhaka, Bangladesh"
+        "desc": "CGPA: 3.60/4.00 • 2011 – 2016 • Dhaka, Bangladesh"
+      },
+      {
+        "title": "Police Smrity College",
+        "org": "H.S.C, Science",
+        "desc": "Grade: 4.80 • 2007 – 2009"
       }
     ],
     "certifications": [
@@ -190,22 +222,21 @@
     },
     {
       "title": "A-B Will Vote – Online Voting & Social Platform",
-      "stack": "Node.js · Express · React · Redux · React Hooks · AWS EC2 · AWS S3 · MySQL · Jest",
-      "period": "Feb 2022 – Apr 2023",
+      "stack": "Laravel · React · React Hooks · Redux · AWS EC2 · AWS S3 · MySQL · PHPUnit",
+      "period": "Mar 2020 – Sep 2020",
       "bullets": [
-        "Built Node.js/Express backend APIs powering voting, content management, and social features at scale.",
-        "Developed React frontend with Hooks and Redux for scalable, predictable state management.",
+        "Enhanced backend APIs with Laravel to support voting, content management, and social features at scale.",
+        "Built React frontend with Hooks and Redux for scalable, predictable state management.",
         "Delivered core features: multi-option questions, file/video uploads, social login (Facebook/LinkedIn), follow/unfollow, comments, and category-based search.",
-        "Engineered buffered video streaming with back-pressure handling, ensuring smooth playback and preventing memory overload under peak usage.",
-        "Enhanced admin panel with question sorting, category management, pro-user controls, and moderation tools.",
-        "Wrote unit and integration tests with Jest, ensuring reliability and maintainability."
+        "Improved admin panel for question sorting, category creation, pro-user management, and moderation.",
+        "Wrote comprehensive PHPUnit test suites ensuring reliability and maintainability."
       ],
       "href": "#"
     },
     {
       "title": "BMS – Biomedical Management System",
       "stack": "CakePHP 5.x · PHP 8.1+ · MySQL · jQuery · Bootstrap · D3.js · DataTables · FullCalendar · PHPUnit · i18n",
-      "period": "Aug 2020 – Feb 2022",
+      "period": "Jan 2022 – Mar 2023",
       "bullets": [
         "Developed a CakePHP 5.x system to manage material preservation, manufacturing workflows, and multi-facility operations.",
         "Built modular backend APIs for approval workflows, material tracking, room reservations, and process step management.",
@@ -213,6 +244,17 @@
         "Implemented RBAC with granular permissions, QR/barcode tracking, PDF reporting, and multi-language support (English/Japanese).",
         "Migrated codebase from CakePHP 4.x → 5.x, ensuring PHP 8.1+ compatibility and improved performance.",
         "Wrote comprehensive PHPUnit test suites for controllers, models, and components."
+      ],
+      "href": "#"
+    },
+    {
+      "title": "Shimashare – Multi-Vendor E-Commerce",
+      "stack": "Magento 2.4 · WEBKUL · PHP · MySQL",
+      "period": "Aug 2020 – Dec 2020",
+      "bullets": [
+        "Built a Japan-based multi-vendor e-commerce platform using Magento 2.4.",
+        "Integrated WEBKUL multi-vendor extension to support independent vendor stores, product listings, and order management.",
+        "Delivered a production-ready e-commerce site with reliable vendor and product management workflows."
       ],
       "href": "#"
     }
