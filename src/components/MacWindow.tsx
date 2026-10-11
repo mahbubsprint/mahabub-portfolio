@@ -10,9 +10,9 @@ export default function MacWindow({ title, cmd, children }: Props) {
   return (
     <div className="mac-window">
       <div className="mac-titlebar">
-        <span className="mac-dot mac-red" />
-        <span className="mac-dot mac-yellow" />
-        <span className="mac-dot mac-green" />
+        <span className="mac-dot" style={{ background: "#ff5f57" }} />
+        <span className="mac-dot" style={{ background: "#ffbd2e" }} />
+        <span className="mac-dot" style={{ background: "#28c840" }} />
         <span className="mac-title">{title}</span>
       </div>
       <div className="mac-body">{children}</div>
